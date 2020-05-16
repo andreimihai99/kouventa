@@ -32,15 +32,39 @@ public class RegisterTalkerController
     @FXML
     private void clickRegisterTalker(ActionEvent event) throws IOException {
 
-
-            if(VerificareUserJSON()==1)
+        System.out.println(VerificareDBGoala());
+            /*if(VerificareUserJSON()==1)
             {
                 updateDBase();
             }
             else{
                 System.out.println("Exista deja");
+            }*/
+    }
+
+    public int VerificareDBGoala()
+    {
+        JSONParser jsonParser = new JSONParser();
+        try {
+
+            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("C:/Users/MDM/Desktop/kouventa-master/src/main/java/resources/db.json"));
+            JSONArray jsonArray = (JSONArray) jsonObject.get("DataBase");
+            if(jsonArray.isEmpty()){
+                return 0;
             }
-            }
+
+
+        } catch (FileNotFoundException e)  {
+            e.printStackTrace();
+        } catch (IOException e)
+        {
+            e.printStackTrace();
+        } catch (ParseException e)
+        {
+            e.printStackTrace();
+        }
+        return 1;
+    }
 
 
     public void updateDBase()
