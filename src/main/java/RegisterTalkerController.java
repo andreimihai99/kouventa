@@ -31,34 +31,17 @@ public class RegisterTalkerController
 
     @FXML
     private void clickRegisterTalker(ActionEvent event) throws IOException {
-        /*JSONParser parser = new JSONParser();
-        try {
-            Object pars = parser.parse(new FileReader("C:/Users/MDM/Desktop/kouventa-master/src/main/java/resources/db.json"));
 
-            // A JSON object. Key value pairs are unordered. JSONObject supports java.util.Map interface.
-            JSONObject jsonObject = (JSONObject) pars;
 
-            // A JSON array. JSONObject supports java.util.List interface.
-
-            JSONArray dbase = (JSONArray) jsonObject.get("DataBase");
-            */
-
-             VerificareUserJSON();
+            if(VerificareUserJSON()==1)
+            {
+                updateDBase();
             }
-            // An iterator over a collection. Iterator takes the place of Enumeration in the Java Collections Framework.
-            // Iterators differ from enumerations in two ways:
-            // 1. Iterators allow the caller to remove elements from the underlying collection during the iteration with well-defined semantics.
-            // 2. Method names have been improved.
-          /*Iterator<JSONObject> iterator =dbase.iterator();
-            while (iterator.hasNext()) {
-                System.out.println(iterator.next());
+            else{
+                System.out.println("Exista deja");
             }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+            }
 
-
-    }*/
 
     public void updateDBase()
     {
@@ -69,25 +52,47 @@ public class RegisterTalkerController
         obj.put("User",userText.getText());
         obj.put("Password",passText.getText());
         obj.put("Phone",phoneText.getText());
-        db.add(obj);
-        objfin.put("DataBase",db);
+       // db.add(obj);
+
+       JSONParser jsonParser = new JSONParser();
+        try {
+
+            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("C:/Users/MDM/Desktop/kouventa-master/src/main/java/resources/db.json"));
+            JSONArray jsonArray = (JSONArray) jsonObject.get("DataBase");
+
+                jsonArray.add(obj);
+
+            try {
+                FileWriter file = new FileWriter("C:/Users/MDM/Desktop/kouventa-master/src/main/java/resources/db.json");
+                objfin.put("DataBase",jsonArray);
+                file.write(objfin.toJSONString());
+                file.close();
+
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+
+
+        } catch (FileNotFoundException e)  {
+            e.printStackTrace();
+        } catch (IOException e)
+        {
+            e.printStackTrace();
+        } catch (ParseException e)
+        {
+            e.printStackTrace();
+        }
+
 
         //objfin.put("DataBase",db);
         //JSONObject objf = new JSONObject();
        // objf.put("DataBase",db);
 
-        try {
-            FileWriter file = new FileWriter("C:/Users/MDM/Desktop/kouventa-master/src/main/java/resources/db.json");
-            file.write(objfin.toJSONString());
-            file.close();
 
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
     }
 
-    public void VerificareUserJSON()
+    public int VerificareUserJSON()
     {
         JSONObject obj = new JSONObject();
         JSONParser jsonParser = new JSONParser();
@@ -97,16 +102,14 @@ public class RegisterTalkerController
             Iterator iterator = jsonArray.iterator();
             while(iterator.hasNext()) {
                 JSONObject user= (JSONObject) iterator.next();
-               if(user.get("User").equals(userText.getText()))
+
+               if(userText.getText().equals(user.get("User")))
                {
                    System.out.println("Exista deja");
-                   return;
+                   return 0;
                }
-               else
-               {
-                   System.out.println("Cont Creat");
-                   return;
-               }
+
+
 
         }
          } catch (FileNotFoundException e)  {
@@ -118,6 +121,9 @@ public class RegisterTalkerController
             {
             e.printStackTrace();
             }
+        System.out.println("Cont Creat");
+        return 1;
+
     }
     public RegisterTalkerController()
     {

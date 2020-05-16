@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegisterTalker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegisterTalker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RegisterTalkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegisterTalkerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/RegisterTalker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/RegisterTalker.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/AplicatieFIS.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RegisterTalkerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegisterTalkerController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,26 +149,26 @@
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588780359342" />
     <state x="651" y="150" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589290967094" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1589635681909">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1589637971296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="399" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589112648241" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589635681909" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1589635681908">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589637971296" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1589637971296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="399" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589112648241" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589635681908" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1589635681908">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589637971296" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1589637971296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="399" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589112648241" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589635681908" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1589635681909">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589637971296" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1589637971296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="399" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589112648241" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589635681909" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589637971296" />
     <state width="1323" height="59" key="GridCell.Tab.1.bottom" timestamp="1588886414104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
