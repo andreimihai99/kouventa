@@ -32,15 +32,44 @@ public class RegisterTalkerController
     @FXML
     private void clickRegisterTalker(ActionEvent event) throws IOException {
 
-        System.out.println(VerificareDBGoala());
-            /*if(VerificareUserJSON()==1)
-            {
+        if (VerificareFormularCompletatCorect() == 1) {
+            if (VerificareDBGoala() == 1) {
+                if (VerificareUserJSON() == 1) {
+                    updateDBase();
+                } else {
+                    System.out.println("Exista deja");
+                }
+            } else {
                 updateDBase();
             }
-            else{
-                System.out.println("Exista deja");
-            }*/
+        }
+        else
+        {
+            System.out.println("Va rugam complatati corect formularul");
+        }
     }
+
+
+        public int VerificareFormularCompletatCorect(){
+            if(nameText.getText().isEmpty())
+            {
+                return 0;
+            }
+            if(userText.getText().isEmpty() || userText.getLength()<5)
+            {
+                return 0;
+            }
+            if(phoneText.getText().isEmpty()||phoneText.getLength()!=10)
+            {
+                return 0;
+            }
+            if(passText.getText().isEmpty() || passText.getLength()<8)
+            {
+                return 0;
+            }
+            return 1;
+
+        }
 
     public int VerificareDBGoala()
     {
