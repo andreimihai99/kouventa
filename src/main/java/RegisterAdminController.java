@@ -33,6 +33,8 @@ import javax.crypto.spec.SecretKeySpec;
         @FXML
         private TextField nameText;
         @FXML
+        private TextField comfText;
+        @FXML
         private TextField phoneText;
         @FXML
         private TextField passText;
@@ -45,11 +47,11 @@ import javax.crypto.spec.SecretKeySpec;
         private void clickRegisterAdmin(ActionEvent event) throws IOException {
 
 
-            System.out.println(encrypt(key,initVector,passText.getText()));
-            System.out.println(decrypt(key,initVector,encrypt(key,initVector,passText.getText())));
+
+
             if (VerificareFormularCompletatCorect() == 1) {
                 if (VerificareDBGoala() == 1) {
-                    if (VerificareUserJSON() == 1) {
+                    if (VerificareUserJSON() == 1 && VerificareKey()==1) {
                         updateDBase();
                     } else {
                         System.out.println("Exista deja");
@@ -66,6 +68,10 @@ import javax.crypto.spec.SecretKeySpec;
 
 
         public int VerificareFormularCompletatCorect(){
+            if(comfText.getText().isEmpty())
+            {
+                return 0;
+            }
             if(nameText.getText().isEmpty())
             {
                 return 0;
@@ -83,6 +89,34 @@ import javax.crypto.spec.SecretKeySpec;
                 return 0;
             }
             return 1;
+
+        }
+        public int VerificareKey()
+        {
+            JSONParser jsonParser = new JSONParser();
+            try {
+
+                JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("src/main/resources/keys.json"));
+                JSONArray jsonArray = (JSONArray) jsonObject.get("key");
+                Iterator iterator = jsonArray.iterator();
+                while(iterator.hasNext()) {
+                    if(iterator.next().equals(comfText.getText())){
+                        return 1;
+                    }
+
+                }
+
+
+            } catch (FileNotFoundException e)  {
+                e.printStackTrace();
+            } catch (IOException e)
+            {
+                e.printStackTrace();
+            } catch (ParseException e)
+            {
+                e.printStackTrace();
+            }
+            return 0;
 
         }
 
@@ -116,7 +150,7 @@ import javax.crypto.spec.SecretKeySpec;
             JSONArray db= new JSONArray();
             JSONObject obj = new JSONObject();
             JSONObject objfin = new JSONObject();
-            obj.put("Rol", "Talker");
+            obj.put("Rol", "Admin");
             obj.put("Full name", nameText.getText());
             obj.put("User",userText.getText());
             obj.put("Password",encrypt(key,initVector,passText.getText()));
