@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/LoginGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/LoginGUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginGUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RegisterTalkerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegisterTalkerController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="feature_AF-9" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hjgf" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectId" id="1b4uNgiceq1UUDRTKs2sUuoWvmf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Faculta\Sem2\FIS\Proiect\src\main\resources" />
+      <recent name="C:\Users\MDM\Desktop\kouventa-master\src\main" />
+      <recent name="C:\Users\MDM\Desktop\kouventa-master" />
+      <recent name="C:\Users\MDM\Desktop\kouventa-master\src\main\java" />
+      <recent name="C:\Users\MDM\Desktop\kouventa-master\src\main\java\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Login" />
+      <module name="AplicatieFIS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AplicatieFIS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Register (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javafx.example.Register" />
+      <module name="kouventa-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javafx.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Register" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Register" />
+      <module name="kouventa-master" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTalker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegisterTalker" />
+      <module name="AplicatieFIS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RegisterTalker" />
+        <item itemvalue="Application.Register" />
+        <item itemvalue="Application.Register (1)" />
+        <item itemvalue="Application.Login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab" name="Default Changelist" comment="" />
+      <created>1587903648706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587903648706</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="284" y="16" key="#Project_Structure" timestamp="1589110373798">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="284" y="16" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589110373798" />
+    <state x="400" y="22" key="#RegisterTalker" timestamp="1590320611329">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="400" y="22" key="#RegisterTalker/0.0.1366.728@0.0.1366.728" timestamp="1590320611329" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1588884709950">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1588884709950" />
+    <state x="743" y="410" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589642446811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="410" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1589642446811" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588883998650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588883998650" />
+    <state x="651" y="150" key="FileChooserDialogImpl" timestamp="1589290967094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588780359342" />
+    <state x="651" y="150" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589290967094" />
+    <state width="1323" height="127" key="GridCell.Tab.0.bottom" timestamp="1590321141689">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="127" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590321141689" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590141707934" />
+    <state width="1323" height="127" key="GridCell.Tab.0.center" timestamp="1590321141689">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="127" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590321141689" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590141707933" />
+    <state width="1323" height="127" key="GridCell.Tab.0.left" timestamp="1590321141689">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="127" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590321141689" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590141707933" />
+    <state width="1323" height="127" key="GridCell.Tab.0.right" timestamp="1590321141689">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="127" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590321141689" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590141707933" />
+    <state width="1323" height="59" key="GridCell.Tab.1.bottom" timestamp="1588886414104">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="59" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588886414104" />
+    <state width="1323" height="59" key="GridCell.Tab.1.center" timestamp="1588886414103">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="59" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1588886414103" />
+    <state width="1323" height="59" key="GridCell.Tab.1.left" timestamp="1588886414103">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="59" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1588886414103" />
+    <state width="1323" height="59" key="GridCell.Tab.1.right" timestamp="1588886414103">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="59" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588886414103" />
+    <state x="299" y="27" key="Maven.ArtifactSearchDialog" timestamp="1590141093193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1588502983100" />
+    <state x="299" y="27" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590141093193" />
+    <state x="444" y="86" key="RollbackChangesDialog" timestamp="1589108783219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="444" y="86" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589108783219" />
+    <state x="517" y="19" key="SettingsEditor" timestamp="1589291744371">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="368" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588878356056" />
+    <state x="517" y="19" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589291744371" />
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2" timestamp="1590321377903">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590321377903" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589642802151" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590317617029">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590317617029" />
+    <state x="666" y="119" width="587" height="801" key="find.popup" timestamp="1589292917265">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589292917265" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AplicatieFIS$Login.ic" NAME="Login Coverage Results" MODIFIED="1588882759896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

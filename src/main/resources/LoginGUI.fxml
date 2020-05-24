@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="550.0" style="-fx-background-color: #2EA1BD;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <children>
+      <AnchorPane layoutX="275.0" layoutY="15.0" prefHeight="320.0" prefWidth="250.0" style="-fx-background-color: #20798F;">
+         <children>
+            <Label layoutX="98.0" layoutY="26.0" text="Login">
+               <font>
+                  <Font name="Leelawadee" size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="loginButton" layoutX="79.0" layoutY="230.0" mnemonicParsing="false" onAction="#clickLoginButton" prefHeight="25.0" prefWidth="95.0" text="Log in" />
+            <PasswordField fx:id="passwordField" layoutX="36.0" layoutY="148.0" prefHeight="25.0" prefWidth="180.0" promptText="password" />
+            <TextField fx:id="usernameField" layoutX="36.0" layoutY="102.0" prefHeight="25.0" prefWidth="180.0" promptText="username" />
+         </children></AnchorPane>
+      <Label layoutX="51.0" layoutY="57.0" text="Welcome to">
+         <font>
+            <Font name="Leelawadee" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="76.0" />
+      <Label layoutX="51.0" layoutY="76.0" text="kouvénta">
+         <font>
+            <Font name="Leelawadee" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="184.0" text="Don't have an account?" />
+      <Button fx:id="loginRegisterButton" layoutX="51.0" layoutY="208.0" mnemonicParsing="false" onAction="#clickLoginRegisterButton" text="Register" />
+      <Button fx:id="loginRegisterAdminButton" layoutX="51.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickLoginRegisterAdminButton" text="Register as Admin" />
+   </children>
+</Pane>
