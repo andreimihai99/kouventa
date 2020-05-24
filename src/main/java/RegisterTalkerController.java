@@ -4,7 +4,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 //import java.nio.file.Files;
 //import java.nio.file.Paths;
-import java.security.Security;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
@@ -22,9 +21,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.SecretKeySpec;
 
 public class RegisterTalkerController
 {
@@ -45,9 +42,9 @@ public class RegisterTalkerController
 
         System.out.println(encrypt(key,initVector,passText.getText()));
         System.out.println(decrypt(key,initVector,encrypt(key,initVector,passText.getText())));
-        if (VerificareFormularCompletatCorect() == 1) {
-            if (VerificareDBGoala() == 1) {
-                if (VerificareUserJSON() == 1) {
+        if (verificareFormularCompletatCorect() == 1) {
+            if (verificareDBGoala() == 1) {
+                if (verificareUserJSON() == 1) {
                     updateDBase();
                 } else {
                     System.out.println("Exista deja");
@@ -63,7 +60,7 @@ public class RegisterTalkerController
     }
 
 
-    public int VerificareFormularCompletatCorect(){
+    public int verificareFormularCompletatCorect(){
         if(nameText.getText().isEmpty())
         {
             return 0;
@@ -84,7 +81,7 @@ public class RegisterTalkerController
 
     }
 
-    public int VerificareDBGoala()
+    public int verificareDBGoala()
     {
         JSONParser jsonParser = new JSONParser();
         try {
@@ -159,7 +156,7 @@ public class RegisterTalkerController
 
     }
 
-    public int VerificareUserJSON()
+    public int verificareUserJSON()
     {
         JSONObject obj = new JSONObject();
         JSONParser jsonParser = new JSONParser();
