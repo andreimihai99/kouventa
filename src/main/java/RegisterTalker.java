@@ -21,7 +21,7 @@ public class RegisterTalker extends Application
         // Create the FXMLLoader
         FXMLLoader loader = new FXMLLoader();
         // Path to the FXML File
-        String fxmlDocPath = "src/main/resources/RegisterTalker.fxml";
+        String fxmlDocPath = "C:/Users/MDM/Desktop/kouventa-master/src/main/java/resources/RegisterTalker.fxml";
         FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
 
         // Create the Pane and all Details
