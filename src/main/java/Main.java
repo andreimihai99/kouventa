@@ -13,7 +13,7 @@ public class Main extends Application{
         // Create the FXMLLoader
         FXMLLoader loader = new FXMLLoader();
         // Path to the FXML File
-        String fxmlDocPath = "C:/Users/User/Desktop/Faculta/Sem2/FIS/Proiect/src/main/java/resources/LoginGUI.fxml";
+        String fxmlDocPath = "src/main/resources/LoginGUI.fxml";
         FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
 
         // Create the Pane and all Details
