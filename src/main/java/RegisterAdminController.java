@@ -79,30 +79,31 @@ import javax.crypto.spec.SecretKeySpec;
                 if (VerificareDBGoala() == 1) {
                     if (VerificareUserJSON() == 1 && VerificareKey()==1) {
                         updateDBase();
+                        Stage newStage =new Stage();
+                        Node source = (Node)  event.getSource();
+                        Stage stage  = (Stage) source.getScene().getWindow();
+                        stage.close();
+                        // Create the FXMLLoader
+                        FXMLLoader loader = new FXMLLoader();
+                        // Path to the FXML File
+                        String fxmlDocPath = "src/main/resources/LoginGUI.fxml";
+                        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+
+                        // Create the Pane and all Details
+                        Pane root = (Pane) loader.load(fxmlStream);
+
+                        // Create the Scene
+
+                        Scene scene = new Scene(root);
+                        newStage.setScene(scene);
+
+                        newStage.show();
                     } else {
                         System.out.println("Exista deja");
                     }
                 } else {
                     updateDBase();
-                    Stage newStage =new Stage();
-                    Node source = (Node)  event.getSource();
-                    Stage stage  = (Stage) source.getScene().getWindow();
-                    stage.close();
-                    // Create the FXMLLoader
-                    FXMLLoader loader = new FXMLLoader();
-                    // Path to the FXML File
-                    String fxmlDocPath = "src/main/resources/LoginGUI.fxml";
-                    FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
 
-                    // Create the Pane and all Details
-                    Pane root = (Pane) loader.load(fxmlStream);
-
-                    // Create the Scene
-
-                    Scene scene = new Scene(root);
-                    newStage.setScene(scene);
-
-                    newStage.show();
                 }
             }
             else

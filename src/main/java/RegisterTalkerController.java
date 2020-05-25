@@ -74,8 +74,7 @@ public class RegisterTalkerController
         if (VerificareFormularCompletatCorect() == 1) {
             if (VerificareDBGoala() == 1) {
                 if (VerificareUserJSON() == 1) {
-                    updateDBase();
-                    Stage newStage =new Stage();
+                    Stage newStage1 =new Stage();
                     Node source = (Node)  event.getSource();
                     Stage stage  = (Stage) source.getScene().getWindow();
                     stage.close();
@@ -91,9 +90,11 @@ public class RegisterTalkerController
                     // Create the Scene
 
                     Scene scene = new Scene(root);
-                    newStage.setScene(scene);
+                    newStage1.setScene(scene);
 
-                    newStage.show();
+                    newStage1.show();
+                    updateDBase();
+
                 } else {
                     System.out.println("Exista deja");
                 }
