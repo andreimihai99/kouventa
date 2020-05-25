@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab" name="Default Changelist" comment="" />
+    <list default="true" id="dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_25_2020_1_06_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_25_2020_1_06_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegisterTalkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegisterTalkerController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +36,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature_AF-10" />
+        <entry key="$PROJECT_DIR$" value="Teste" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,10 +105,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.RegisterAdmin" />
-        <item itemvalue="Application.LoginController" />
         <item itemvalue="Application.RegisterTalker" />
+        <item itemvalue="Application.RegisterAdmin" />
         <item itemvalue="Application.Register" />
+        <item itemvalue="Application.LoginController" />
       </list>
     </recent_temporary>
   </component>
@@ -122,10 +126,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="657" y="139" key="#Main" timestamp="1590399790246">
+    <state x="657" y="139" key="#Main" timestamp="1590401691113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="139" key="#Main/0.0.1920.1040@0.0.1920.1040" timestamp="1590399790246" />
+    <state x="657" y="139" key="#Main/0.0.1920.1040@0.0.1920.1040" timestamp="1590401691113" />
     <state x="284" y="16" key="#Project_Structure" timestamp="1589110373798">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -151,26 +155,26 @@
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588780359342" />
     <state x="651" y="150" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589290967094" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1590400393163">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1590401567597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="127" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590321141689" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590400393163" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1590400393163">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590401567597" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1590401567596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="127" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590321141689" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590400393163" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1590400393163">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590401567596" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1590401567596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="127" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590321141689" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590400393163" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1590400393163">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590401567596" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1590401567597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="127" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590321141689" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590400393163" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590401567597" />
     <state width="1323" height="59" key="GridCell.Tab.1.bottom" timestamp="1588886414104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -192,6 +196,10 @@
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1588502983100" />
     <state x="299" y="27" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590141093193" />
+    <state x="184" y="85" key="MergeDialog" timestamp="1590401519705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="85" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590401519705" />
     <state x="848" y="387" width="491" height="265" key="MultipleFileMergeDialog" timestamp="1590400245233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,6 +226,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589292917265" />
+    <state x="739" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590401516857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590401516857" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AplicatieFIS$Login.ic" NAME="Login Coverage Results" MODIFIED="1588882759896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -1,9 +1,7 @@
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 //import java.nio.file.Files;
 //import java.nio.file.Paths;
+import java.security.Security;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
@@ -12,16 +10,23 @@ import java.util.Iterator;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.TextField;
 
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
+import javax.crypto.spec.SecretKeySpec;
 
 public class RegisterTalkerController
 {
@@ -36,16 +41,60 @@ public class RegisterTalkerController
     public String key = "Jar12345Jar12345";
     public String initVector = "RandomInitVector";
 
+
+    @FXML
+    private void backButtonHandler(ActionEvent event) throws  IOException{
+        Stage newStage =new Stage();
+        Node source = (Node)  event.getSource();
+        Stage stage  = (Stage) source.getScene().getWindow();
+        stage.close();
+        // Create the FXMLLoader
+        FXMLLoader loader = new FXMLLoader();
+        // Path to the FXML File
+        String fxmlDocPath = "src/main/resources/LoginGUI.fxml";
+        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+
+        // Create the Pane and all Details
+        Pane root = (Pane) loader.load(fxmlStream);
+
+        // Create the Scene
+
+        Scene scene = new Scene(root);
+        newStage.setScene(scene);
+
+        newStage.show();
+    }
+
     @FXML
     private void clickRegisterTalker(ActionEvent event) throws IOException {
 
 
         System.out.println(encrypt(key,initVector,passText.getText()));
         System.out.println(decrypt(key,initVector,encrypt(key,initVector,passText.getText())));
-        if (verificareFormularCompletatCorect() == 1) {
-            if (verificareDBGoala() == 1) {
-                if (verificareUserJSON() == 1) {
+        if (VerificareFormularCompletatCorect() == 1) {
+            if (VerificareDBGoala() == 1) {
+                if (VerificareUserJSON() == 1) {
+                    Stage newStage1 =new Stage();
+                    Node source = (Node)  event.getSource();
+                    Stage stage  = (Stage) source.getScene().getWindow();
+                    stage.close();
+                    // Create the FXMLLoader
+                    FXMLLoader loader = new FXMLLoader();
+                    // Path to the FXML File
+                    String fxmlDocPath = "src/main/resources/LoginGUI.fxml";
+                    FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+
+                    // Create the Pane and all Details
+                    Pane root = (Pane) loader.load(fxmlStream);
+
+                    // Create the Scene
+
+                    Scene scene = new Scene(root);
+                    newStage1.setScene(scene);
+
+                    newStage1.show();
                     updateDBase();
+
                 } else {
                     System.out.println("Exista deja");
                 }
@@ -60,7 +109,7 @@ public class RegisterTalkerController
     }
 
 
-    public int verificareFormularCompletatCorect(){
+    public int VerificareFormularCompletatCorect(){
         if(nameText.getText().isEmpty())
         {
             return 0;
@@ -81,7 +130,7 @@ public class RegisterTalkerController
 
     }
 
-    public int verificareDBGoala()
+    public int VerificareDBGoala()
     {
         JSONParser jsonParser = new JSONParser();
         try {
@@ -156,7 +205,7 @@ public class RegisterTalkerController
 
     }
 
-    public int verificareUserJSON()
+    public int VerificareUserJSON()
     {
         JSONObject obj = new JSONObject();
         JSONParser jsonParser = new JSONParser();
