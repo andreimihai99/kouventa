@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_24_2020_3_09_PM_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_24_2020_3_09_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegisterAdmin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegisterAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegisterAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegisterTalker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/RegisterAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/RegisterAdmin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/RegisterTalker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/RegisterTalker.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterAdmin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegisterAdmin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegisterAdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterTalker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegisterTalker.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterTalkerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegisterTalkerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.json" afterDir="false" />
-    </list>
+    <list default="true" id="dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,11 +205,11 @@
     </state>
     <state x="368" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588878356056" />
     <state x="517" y="19" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589291744371" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590398465317">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590400557159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590321377903" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590398465317" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590400557159" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590317617029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
