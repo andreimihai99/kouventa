@@ -1,9 +1,7 @@
-import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
@@ -28,7 +26,10 @@ import java.util.Base64;
 import java.util.Iterator;
 import java.util.ResourceBundle;
 
-public class LoginController implements Initializable {
+public class LoginController  implements Initializable  {
+
+
+
     public Button loginButton;
     public PasswordField passwordField;
     public TextField usernameField;
@@ -87,15 +88,51 @@ public class LoginController implements Initializable {
         return 0;
     }
 
-    public void clickLoginRegisterButton(ActionEvent actionEvent) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("src/main/resources/RegisterTalker.fxml"));
-        Scene scene = new Scene(root, 250, 350);
-        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setScene(scene);
-        stage.show();
+    public void clickLoginRegisterButton(ActionEvent actionEvent) throws Exception {
+        Stage newStage =new Stage();
+        Node  source = (Node)  actionEvent.getSource();
+        Stage stage  = (Stage) source.getScene().getWindow();
+        stage.close();
+        // Create the FXMLLoader
+        FXMLLoader loader = new FXMLLoader();
+        // Path to the FXML File
+        String fxmlDocPath = "src/main/resources/RegisterTalker.fxml";
+        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+
+        // Create the Pane and all Details
+        Pane root = (Pane) loader.load(fxmlStream);
+
+        // Create the Scene
+
+        Scene scene = new Scene(root);
+        newStage.setScene(scene);
+
+        newStage.show();
+
     }
 
-    public void clickLoginRegisterAdminButton(ActionEvent actionEvent) {
+
+
+    public void clickLoginRegisterAdminButton(ActionEvent actionEvent) throws Exception {
+        Stage newStage =new Stage();
+        Node  source = (Node)  actionEvent.getSource();
+        Stage stage  = (Stage) source.getScene().getWindow();
+        stage.close();
+        FXMLLoader loader = new FXMLLoader();
+        // Path to the FXML File
+        String fxmlDocPath = "src/main/resources/RegisterAdmin.fxml";
+        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+
+        // Create the Pane and all Details
+        Pane root = (Pane) loader.load(fxmlStream);
+
+        // Create the Scene
+
+        Scene scene = new Scene(root);
+        newStage.setScene(scene);
+
+        newStage.show();
+
 
     }
 
