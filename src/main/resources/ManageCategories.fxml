@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+             <Button fx:id="AddButton" layoutX="165.0" layoutY="227.0" mnemonicParsing="false" onAction="#clickAdd" text="Add" />
+             <Button fx:id="DeleteButton" layoutX="274.0" layoutY="227.0" mnemonicParsing="false" onAction="#clickDelete" text="Delete" />
+             <Button fx:id="ChangeButton" layoutX="382.0" layoutY="227.0" mnemonicParsing="false" onAction="#clickChange" text="Change" />
+             <TextField fx:id="category" layoutX="184.0" layoutY="148.0" />
+         </children></Pane>
+   </children>
+</AnchorPane>

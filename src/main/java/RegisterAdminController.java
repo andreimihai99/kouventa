@@ -72,9 +72,6 @@ import javax.crypto.spec.SecretKeySpec;
         @FXML
         private void clickRegisterAdmin(ActionEvent event) throws IOException {
 
-
-
-
             if (VerificareFormularCompletatCorect() == 1) {
                 if (VerificareDBGoala() == 1) {
                     if (VerificareUserJSON() == 1 && VerificareKey()==1) {
