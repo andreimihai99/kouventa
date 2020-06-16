@@ -163,6 +163,7 @@ public class RegisterTalkerController
         obj.put("Rol", "Talker");
         obj.put("Full name", nameText.getText());
         obj.put("User",userText.getText());
+        obj.put("Status", "Unblocked");
         obj.put("Password",encrypt(key,initVector,passText.getText()));
         obj.put("Phone",phoneText.getText());
         // db.add(obj);

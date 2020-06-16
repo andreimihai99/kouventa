@@ -37,6 +37,7 @@ public class LoginController  implements Initializable  {
     public Button loginRegisterAdminButton;
     public String key = "Jar12345Jar12345";
     public String initVector = "RandomInitVector";
+    public static String user =
 
     public void initialize(URL location, ResourceBundle resources) {
     }
@@ -57,6 +58,10 @@ public class LoginController  implements Initializable  {
             return 0;
         }
         return 1;
+    }
+
+    public int checkBlocked(){
+
     }
 
     public int checkUserJSON(){
