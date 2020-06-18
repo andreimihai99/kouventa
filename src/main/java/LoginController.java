@@ -26,7 +26,7 @@ import java.util.Base64;
 import java.util.Iterator;
 import java.util.ResourceBundle;
 
-public class LoginController  implements Initializable  {
+public class LoginController extends Main implements Initializable {
 
 
 
@@ -37,15 +37,16 @@ public class LoginController  implements Initializable  {
     public Button loginRegisterAdminButton;
     public String key = "Jar12345Jar12345";
     public String initVector = "RandomInitVector";
-    public static String user =
 
     public void initialize(URL location, ResourceBundle resources) {
     }
 
     @FXML
     private void clickLoginButton(ActionEvent event) throws IOException{
-        if(verificareFormular() == 1 && checkUserJSON() == 1)
+        if(verificareFormular() == 1 && checkUserJSON() == 1) {
             System.out.println("Acces permis");
+            user = usernameField.getText();
+        }
         else
             System.out.println("Username sau parola gresite");
     }
@@ -58,10 +59,6 @@ public class LoginController  implements Initializable  {
             return 0;
         }
         return 1;
-    }
-
-    public int checkBlocked(){
-
     }
 
     public int checkUserJSON(){

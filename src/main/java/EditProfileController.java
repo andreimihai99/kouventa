@@ -1,8 +1,13 @@
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -10,13 +15,12 @@ import org.json.simple.parser.ParseException;
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.Base64;
+import java.util.Iterator;
 
 
-public class EditProfileController {
+public class EditProfileController extends Main {
 
     @FXML
     private TextField newNameField;
@@ -32,10 +36,34 @@ public class EditProfileController {
     public String key = "Jar12345Jar12345";
     public String initVector = "RandomInitVector";
 
-    @FXML
-    public void clickSave(ActionEvent event) {
-        if(verificareFormularCorect() == 1)
+    @Override
 
+    public void start(Stage primaryStage) throws Exception {
+        // Create the FXMLLoader
+        FXMLLoader loader = new FXMLLoader();
+        // Path to the FXML File
+        String fxmlDocPath = "src/main/resources/EditProfile.fxml";
+        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+
+        // Create the Pane and all Details
+        Pane root = (Pane) loader.load(fxmlStream);
+
+        // Create the Scene
+        Scene scene = new Scene(root);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+
+    }
+
+
+    public static void main(String[] args){
+        launch(args);
+    }
+
+    @FXML
+    public void clickSave(ActionEvent event) throws FileNotFoundException {
+        if(verificareFormularCorect() == 1)
+            updateDatabase();
     }
 
     public int verificareFormularCorect(){
@@ -54,15 +82,33 @@ public class EditProfileController {
         return 1;
     }
 
-    public void updateDatabase(){
-        JSONObject currentUser = new JSONObject();
+    public void updateDatabase() throws FileNotFoundException {
         JSONParser jsonParser = new JSONParser();
 
         try {
             JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("src/main/resources/db.json"));
-            currentUser.replace("Full name", newNameField.getText());
-            currentUser.replace("Password", encrypt(key, initVector, newPasswordField.getText()));
-            currentUser.replace("Phone", newPhoneField.getText());
+            JSONArray jsonArray = (JSONArray) jsonObject.get("DataBase");
+            Iterator iterator = jsonArray.iterator();
+            while (iterator.hasNext()) {
+                JSONObject currentUser = (JSONObject) iterator.next();
+                if (currentUser.get("User").equals(user)) {
+                    currentUser.replace("Full name", newNameField.getText());
+                    currentUser.replace("Password", encrypt(key, initVector, newPasswordField.getText()));
+                    currentUser.replace("Phone", newPhoneField.getText());
+                    break;
+                }
+            }
+            JSONObject aux = new JSONObject();
+            aux.put("DataBase", jsonArray);
+            try {
+                FileWriter file = new FileWriter("src/main/resources/db.json");
+                file.write(aux.toJSONString());
+                file.close();
+
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
         }
         catch (ParseException e) {
             e.printStackTrace();
@@ -70,12 +116,10 @@ public class EditProfileController {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        } {
-
         }
-    }
+        }
 
-    public static String encrypt(String key, String initVector, String value)
+        public static String encrypt(String key, String initVector, String value)
     {
         try {
             IvParameterSpec iv = new IvParameterSpec(initVector.getBytes("UTF-8"));
