@@ -7,7 +7,10 @@ import javafx.stage.Stage;
 import java.io.FileInputStream;
 
 public class Main extends Application{
+    public static String user = "andreimihai";
+
     @Override
+
     public void start(Stage primaryStage) throws Exception {
         // Create the FXMLLoader
         FXMLLoader loader = new FXMLLoader();

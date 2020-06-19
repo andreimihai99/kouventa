@@ -26,7 +26,7 @@ import java.util.Base64;
 import java.util.Iterator;
 import java.util.ResourceBundle;
 
-public class LoginController  implements Initializable  {
+public class LoginController extends Main implements Initializable {
 
 
 
@@ -43,8 +43,10 @@ public class LoginController  implements Initializable  {
 
     @FXML
     private void clickLoginButton(ActionEvent event) throws IOException{
-        if(verificareFormular() == 1 && checkUserJSON() == 1)
+        if(verificareFormular() == 1 && checkUserJSON() == 1) {
             System.out.println("Acces permis");
+            user = usernameField.getText();
+        }
         else
             System.out.println("Username sau parola gresite");
     }

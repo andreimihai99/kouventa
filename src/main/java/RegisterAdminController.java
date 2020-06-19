@@ -72,9 +72,6 @@ import javax.crypto.spec.SecretKeySpec;
         @FXML
         private void clickRegisterAdmin(ActionEvent event) throws IOException {
 
-
-
-
             if (VerificareFormularCompletatCorect() == 1) {
                 if (VerificareDBGoala() == 1) {
                     if (VerificareUserJSON() == 1 && VerificareKey()==1) {
@@ -200,6 +197,7 @@ import javax.crypto.spec.SecretKeySpec;
             obj.put("Rol", "Admin");
             obj.put("Full name", nameText.getText());
             obj.put("User",userText.getText());
+            obj.put("Status", "Unblocked");
             obj.put("Password",encrypt(key,initVector,passText.getText()));
             obj.put("Phone",phoneText.getText());
             // db.add(obj);
