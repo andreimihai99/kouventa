@@ -39,7 +39,9 @@ public class LoginController extends Main implements Initializable {
 
 
     public Button loginButton;
+    @FXML
     public PasswordField passwordField;
+    @FXML
     public TextField usernameField;
     public Button loginRegisterButton;
     public Button loginRegisterAdminButton;
@@ -72,13 +74,17 @@ public class LoginController extends Main implements Initializable {
 
     @FXML
     private void clickLoginButton(ActionEvent event) throws IOException{
+        if(verificareFormular() == 1 && checkUserJSON() == 0) {
+
+            errorWindow("User sau parola gresita",event);
+        }
         if(verificareFormular() == 1 && checkUserJSON() == 1) {
             user = usernameField.getText();
             opening("TalkerGUI",event);
         }
         if(verificareFormular() == 1 && checkUserJSON() == 2) {
 
-            System.out.println("block");
+            errorWindow("Blocked",event);
         }
         if(verificareFormular() == 1 && checkUserJSON() == 3) {
             user = usernameField.getText();
@@ -146,7 +152,7 @@ public class LoginController extends Main implements Initializable {
 
                     return 1;
                 }
-                if(usernameField.getText().equals(user.get("User")) && encrypt(key, initVector,passwordField.getText()).equals(user.get("Password"))&&user.get("Rol").equals("Talker")&&user.get("Status").equals("Blocked"))
+                if(usernameField.getText().equals(user.get("User")) && encrypt(key, initVector,passwordField.getText()).equals(user.get("Password"))&&user.get("Status").equals("Blocked"))
                 {
 
                     return 2;

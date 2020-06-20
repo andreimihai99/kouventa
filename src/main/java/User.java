@@ -1,51 +1,55 @@
-import java.io.*;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
-import javafx.application.Application;
-import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Group;
-import javafx.scene.Node;
-import javafx.scene.Scene;
 
-import javafx.scene.SubScene;
-import javafx.scene.control.Button;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
+        import java.io.*;
+        import java.util.ArrayList;
+        import java.util.Iterator;
+        import java.util.List;
 
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.Pane;
-import javafx.scene.paint.Color;
-import javafx.scene.text.Font;
-import javafx.scene.text.Text;
-import javafx.scene.text.TextAlignment;
-import javafx.scene.text.TextFlow;
-import javafx.stage.Stage;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+        import javafx.application.Application;
+        import javafx.collections.ObservableList;
+        import javafx.event.ActionEvent;
+        import javafx.event.EventHandler;
+        import javafx.fxml.FXML;
+        import javafx.fxml.FXMLLoader;
+        import javafx.scene.Group;
+        import javafx.scene.Node;
+        import javafx.scene.Scene;
 
-import static java.util.Collections.sort;
+        import javafx.scene.SubScene;
+        import javafx.scene.control.Button;
+        import javafx.scene.control.ScrollPane;
+        import javafx.scene.control.TextArea;
+        import javafx.scene.control.TextField;
+
+        import javafx.scene.layout.AnchorPane;
+        import javafx.scene.layout.Pane;
+        import javafx.scene.paint.Color;
+        import javafx.scene.text.Font;
+        import javafx.scene.text.Text;
+        import javafx.scene.text.TextAlignment;
+        import javafx.scene.text.TextFlow;
+        import javafx.stage.Stage;
+        import org.json.simple.JSONArray;
+        import org.json.simple.JSONObject;
+        import org.json.simple.parser.JSONParser;
+        import org.json.simple.parser.ParseException;
+
+        import static java.util.Collections.sort;
 
 public class User extends  LoginController {
 
 
     @FXML
     protected TextField postTxt;
-    protected static String current_category=new String();
+
+    protected static String current_category;
+
     private static Stage pStage;
     protected String aug;
     protected List<Button> buttonlist = new ArrayList<Button>();
     public void deschidere(String aug, List buttonlist){
         try {
-            current_category = aug;
+
             String prov=new String();
             JSONParser jsonParser = new JSONParser();
 
@@ -53,14 +57,13 @@ public class User extends  LoginController {
 
                 JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("src/main/resources/Forum.json"));
                 JSONArray jsonArray = (JSONArray) jsonObject.get("Database");
-                JSONObject aj=new JSONObject();
 
 
                 Iterator iterator = jsonArray.iterator();
                 while (iterator.hasNext()) {
                     JSONObject categ = (JSONObject) iterator.next();
-                    if (categ.containsKey(current_category)) {
-                        prov = (String) categ.get(current_category);
+                    if (categ.containsKey(aug)) {
+                        prov = (String) categ.get(aug);
                         break;
 
                     }
@@ -142,8 +145,8 @@ public class User extends  LoginController {
                 btn.setLayoutY(i);
                 EventHandler<ActionEvent> click = new EventHandler<ActionEvent>() {
                     public void handle(ActionEvent eve) {
-                        current_category = aug;
-                        deschidere(aug, buttonlist);
+                        current_category =btn.getId();
+                        deschidere(current_category, buttonlist);
                     }
                 };
                 btn.setOnAction(click);
@@ -194,53 +197,53 @@ public class User extends  LoginController {
         txtField1.setX(340);
         txtField1.setY(20);
 
-                buton();
-                Stage newStage =new Stage();
-                Node source = (Node)  event.getSource();
-                Stage stage  = (Stage) source.getScene().getWindow();
-                stage.close();
-                // Create the FXMLLoader
-                FXMLLoader loader = new FXMLLoader();
-                // Path to the FXML File
-                String fxmlDocPath = "src/main/resources/Forum.fxml";
-                FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+        buton();
+        Stage newStage =new Stage();
+        Node source = (Node)  event.getSource();
+        Stage stage  = (Stage) source.getScene().getWindow();
+        stage.close();
+        // Create the FXMLLoader
+        FXMLLoader loader = new FXMLLoader();
+        // Path to the FXML File
+        String fxmlDocPath = "src/main/resources/Forum.fxml";
+        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
 
 
-                Pane root = (Pane) loader.load(fxmlStream);
+        Pane root = (Pane) loader.load(fxmlStream);
 
-                    ScrollPane scrPane=new ScrollPane();
-                    scrPane.setContent(txtField1);
-                    scrPane.setLayoutY(20);
-                    scrPane.setLayoutX(200);
-                    scrPane.setFitToWidth(true);
-                    scrPane.setPrefWidth(380);
-                    scrPane.setPrefHeight(250);
-                    Group root1 = new Group();
+        ScrollPane scrPane=new ScrollPane();
+        scrPane.setContent(txtField1);
+        scrPane.setLayoutY(20);
+        scrPane.setLayoutX(200);
+        scrPane.setFitToWidth(true);
+        scrPane.setPrefWidth(380);
+        scrPane.setPrefHeight(250);
+        Group root1 = new Group();
 
 
-                    root.getChildren().addAll(buttonlist);
-                     ObservableList list = root.getChildren();
+        root.getChildren().addAll(buttonlist);
+        ObservableList list = root.getChildren();
 
 
         //Setting the text object as a node to the group object
-                     list.add(scrPane);
+        list.add(scrPane);
 
 
 
 
-                    //Creating a scene object
-                    Scene scene = new Scene(root);
-                    newStage.setScene(scene);
-                    pStage = newStage;
-                    pStage.show();
-                    return;
+        //Creating a scene object
+        Scene scene = new Scene(root);
+        newStage.setScene(scene);
+        pStage = newStage;
+        pStage.show();
+        return;
 
 
 
     }
     @FXML
     private void clickPost(ActionEvent click)throws IOException {
-       if(!postTxt.getText().isEmpty())
+        if(!postTxt.getText().isEmpty())
         {
             JSONParser jsonParser = new JSONParser();
             String prov = new String();
@@ -260,7 +263,7 @@ public class User extends  LoginController {
                             prov = categ.get(current_category) + "\n" + user +": " + postTxt.getText();
 
                             categ.replace(current_category,prov);
-                           
+
                             verificator=1;
 
                         }
@@ -291,7 +294,7 @@ public class User extends  LoginController {
                     }
 
                 }
-               else {
+                else {
 
                     prov =user+": "+ postTxt.getText();
                     JSONObject aug = new JSONObject();
@@ -337,5 +340,5 @@ public class User extends  LoginController {
     }
 
 
-    }
+}
 
