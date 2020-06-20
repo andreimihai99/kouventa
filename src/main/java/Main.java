@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 import java.io.FileInputStream;
 
 public class Main extends Application{
-    public static String user = "andreimihai";
+    public static String user ;
 
     @Override
 

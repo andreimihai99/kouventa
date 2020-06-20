@@ -34,7 +34,7 @@ import org.json.simple.parser.ParseException;
 
 import static java.util.Collections.sort;
 
-public class User extends  Application {
+public class User extends  LoginController {
 
 
     @FXML
@@ -95,7 +95,7 @@ public class User extends  Application {
             scrPane.setLayoutY(20);
             scrPane.setLayoutX(200);
             scrPane.setFitToWidth(true);
-            scrPane.setPrefWidth(350);
+            scrPane.setPrefWidth(380);
             scrPane.setPrefHeight(250);
             Group root1 = new Group();
 
@@ -212,7 +212,7 @@ public class User extends  Application {
                     scrPane.setLayoutY(20);
                     scrPane.setLayoutX(200);
                     scrPane.setFitToWidth(true);
-                    scrPane.setPrefWidth(350);
+                    scrPane.setPrefWidth(380);
                     scrPane.setPrefHeight(250);
                     Group root1 = new Group();
 
@@ -256,7 +256,7 @@ public class User extends  Application {
                         if(categ.containsKey(current_category))
                         {
 
-                            prov = categ.get(current_category) + "\n" + postTxt.getText();
+                            prov = categ.get(current_category) + "\n" + user +": " + postTxt.getText();
 
                             categ.replace(current_category,prov);
                            
@@ -270,7 +270,7 @@ public class User extends  Application {
                     }
                     if(verificator==0)
                     {
-                        prov =postTxt.getText();
+                        prov =user+ ": "+postTxt.getText();
                         JSONObject aug=new JSONObject();
                         aug.put(current_category,prov);
                         jsonArray.add(aug);
@@ -292,7 +292,7 @@ public class User extends  Application {
                 }
                else {
 
-                    prov = postTxt.getText();
+                    prov =user+": "+ postTxt.getText();
                     JSONObject aug = new JSONObject();
                     aug.put(current_category, prov);
                     jsonArray.add(aug);
@@ -323,6 +323,16 @@ public class User extends  Application {
             deschidere(current_category, buttonlist);
         }
 
+    }
+    @FXML
+    private void clickBack(ActionEvent ev) throws IOException {
+        pStage.close();
+        opening("TalkerGUI",ev);
+    }
+    @FXML
+    private void clickEdit(ActionEvent ev) throws IOException {
+
+        opening("EditProfile",ev);
     }
 
 

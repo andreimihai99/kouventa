@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Test.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EditProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ManageTalkersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManageTalkersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Admin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ChangeIn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ChangeIn.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/EditProfile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EditProfile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forum.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forum.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forum.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/LoginGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/LoginGUI.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ManageCategories.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ManageCategories.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ManagesTalkers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ManagesTalkers.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/TalkerGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TalkerGUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.json" afterDir="false" />
+    </list>
+    <list id="975d5724-848c-4596-b51a-deb9c70aa2e2" name="Uncommitted changes before Merge at 6/20/2020 4:18 PM [Default Changelist]" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Admin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +51,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -45,6 +77,15 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/Admin.java">
+      <ranges>
+        <range start1="21" end1="22" start2="21" end2="22" changelist="975d5724-848c-4596-b51a-deb9c70aa2e2" />
+        <range start1="29" end1="45" start2="29" end2="32" changelist="975d5724-848c-4596-b51a-deb9c70aa2e2" />
+        <range start1="47" end1="47" start2="34" end2="38" changelist="dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="1b4uNgiceq1UUDRTKs2sUuoWvmf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -83,14 +124,14 @@
     </configuration>
     <configuration name="EditProfileController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EditProfileController" />
-      <module name="AplicatieFIS" />
+      <module name="kouventa-master" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LoginController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LoginController" />
-      <module name="AplicatieFIS" />
+      <module name="kouventa-master" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,7 +145,7 @@
     </configuration>
     <configuration name="ManageTalkersController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ManageTalkersController" />
-      <module name="AplicatieFIS" />
+      <module name="kouventa-master" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,8 +153,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ManageTalkersController" />
-        <item itemvalue="Application.EditProfileController" />
         <item itemvalue="Application.LoginController" />
+        <item itemvalue="Application.EditProfileController" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Admin" />
       </list>
@@ -125,6 +166,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab" name="Default Changelist" comment="" />
+      <changelist id="975d5724-848c-4596-b51a-deb9c70aa2e2" name="Uncommitted changes before Merge at 6/20/2020 4:18 PM [Default Changelist]" comment="" />
       <created>1587903648706</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -132,12 +174,45 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="657" y="139" key="#EditProfileController" timestamp="1592662453693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="139" key="#EditProfileController/0.0.1920.1040@0.0.1920.1040" timestamp="1592662453693" />
+    <state x="657" y="139" key="#LoginController" timestamp="1592659439683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="139" key="#LoginController/0.0.1920.1040@0.0.1920.1040" timestamp="1592659439683" />
     <state x="467" y="45" key="#Main" timestamp="1592314249560">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="467" y="45" key="#Main/0.0.1366.728@0.0.1366.728" timestamp="1592314249560" />
     <state x="657" y="139" key="#Main/0.0.1920.1040@0.0.1920.1040" timestamp="1592111988545" />
+    <state x="657" y="139" key="#ManageTalkersController" timestamp="1592664629386">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="139" key="#ManageTalkersController/0.0.1920.1040@0.0.1920.1040" timestamp="1592664629386" />
     <state x="552" y="160" key="#Plugins" timestamp="1590680090553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -163,31 +238,35 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588883998650" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1592661294512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592661294512" />
     <state x="651" y="150" key="FileChooserDialogImpl" timestamp="1589290967094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588780359342" />
     <state x="651" y="150" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589290967094" />
-    <state width="1323" height="127" key="GridCell.Tab.0.bottom" timestamp="1592511555520">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1309" height="282" key="GridCell.Tab.0.bottom" timestamp="1592666176555">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="127" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592511555520" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592310515581" />
-    <state width="1323" height="127" key="GridCell.Tab.0.center" timestamp="1592511555520">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1309" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592666176555" />
+    <state width="1309" height="282" key="GridCell.Tab.0.center" timestamp="1592666176554">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="127" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592511555520" />
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592310515580" />
-    <state width="1323" height="127" key="GridCell.Tab.0.left" timestamp="1592511555520">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1309" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592666176554" />
+    <state width="1309" height="282" key="GridCell.Tab.0.left" timestamp="1592666176554">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="127" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592511555520" />
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592310515580" />
-    <state width="1323" height="127" key="GridCell.Tab.0.right" timestamp="1592511555520">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1309" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592666176554" />
+    <state width="1309" height="282" key="GridCell.Tab.0.right" timestamp="1592666176555">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="127" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592511555520" />
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592310515581" />
+    <state width="1309" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592666176555" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1592250649248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -213,18 +292,19 @@
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1588502983100" />
     <state x="299" y="27" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590141093193" />
-    <state x="184" y="85" key="MergeDialog" timestamp="1590401519705">
+    <state x="184" y="85" key="MergeDialog" timestamp="1592659920894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="85" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590401519705" />
+    <state x="184" y="85" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592659920894" />
     <state x="848" y="387" width="491" height="265" key="MultipleFileMergeDialog" timestamp="1590400245233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="848" y="387" width="491" height="265" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590400245233" />
-    <state x="444" y="86" key="RollbackChangesDialog" timestamp="1589108783219">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="624" y="123" key="RollbackChangesDialog" timestamp="1592660016259">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="444" y="86" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589108783219" />
+    <state x="624" y="123" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592660016259" />
     <state x="517" y="19" key="SettingsEditor" timestamp="1592230872975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -239,6 +319,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592654893224" />
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592659185073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592659185073" />
     <state x="666" y="119" width="587" height="801" key="find.popup" timestamp="1589292917265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -247,6 +331,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590401516857" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592665856790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592665856790" />
+    <state x="382" y="270" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1592660247634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="382" y="270" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592660247634" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AplicatieFIS$Login.ic" NAME="Login Coverage Results" MODIFIED="1588882759896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

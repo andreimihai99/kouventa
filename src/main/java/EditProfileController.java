@@ -20,7 +20,7 @@ import java.util.Base64;
 import java.util.Iterator;
 
 
-public class EditProfileController extends Main {
+public class EditProfileController extends LoginController {
 
     @FXML
     private TextField newNameField;
@@ -36,24 +36,7 @@ public class EditProfileController extends Main {
     public String key = "Jar12345Jar12345";
     public String initVector = "RandomInitVector";
 
-    @Override
 
-    public void start(Stage primaryStage) throws Exception {
-        // Create the FXMLLoader
-        FXMLLoader loader = new FXMLLoader();
-        // Path to the FXML File
-        String fxmlDocPath = "src/main/resources/EditProfile.fxml";
-        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
-
-        // Create the Pane and all Details
-        Pane root = (Pane) loader.load(fxmlStream);
-
-        // Create the Scene
-        Scene scene = new Scene(root);
-        primaryStage.setScene(scene);
-        primaryStage.show();
-
-    }
 
 
     public static void main(String[] args){
@@ -61,9 +44,14 @@ public class EditProfileController extends Main {
     }
 
     @FXML
-    public void clickSave(ActionEvent event) throws FileNotFoundException {
+    public void clickSave(ActionEvent event) throws IOException {
         if(verificareFormularCorect() == 1)
-            updateDatabase();
+        { updateDatabase();
+            opening("TalkerGUI",event);
+        }
+        else{
+            System.out.println("nu e bine");
+        }
     }
 
     public int verificareFormularCorect(){
@@ -84,13 +72,13 @@ public class EditProfileController extends Main {
 
     public void updateDatabase() throws FileNotFoundException {
         JSONParser jsonParser = new JSONParser();
-
         try {
             JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("src/main/resources/db.json"));
             JSONArray jsonArray = (JSONArray) jsonObject.get("DataBase");
             Iterator iterator = jsonArray.iterator();
             while (iterator.hasNext()) {
                 JSONObject currentUser = (JSONObject) iterator.next();
+                System.out.println();
                 if (currentUser.get("User").equals(user)) {
                     currentUser.replace("Full name", newNameField.getText());
                     currentUser.replace("Password", encrypt(key, initVector, newPasswordField.getText()));
@@ -104,7 +92,6 @@ public class EditProfileController extends Main {
                 FileWriter file = new FileWriter("src/main/resources/db.json");
                 file.write(aux.toJSONString());
                 file.close();
-
             } catch (IOException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
@@ -117,7 +104,7 @@ public class EditProfileController extends Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        }
+    }
 
         public static String encrypt(String key, String initVector, String value)
     {
@@ -136,5 +123,9 @@ public class EditProfileController extends Main {
         }
 
         return null;
+    }
+    @FXML
+    public void clickBack2(ActionEvent event) throws IOException {
+        opening("TalkerGUI",event);
     }
 }

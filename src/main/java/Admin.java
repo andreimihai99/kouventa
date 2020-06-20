@@ -19,7 +19,7 @@ import org.json.simple.parser.ParseException;
 
 import static java.util.Collections.sort;
 
-public class Admin extends Application {
+public class Admin extends LoginController {
 
     @FXML
     private TextField category;
@@ -27,24 +27,15 @@ public class Admin extends Application {
     private TextField changeInTxt;
     static String change = new String();
 
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        // Create the FXMLLoader
-        FXMLLoader loader = new FXMLLoader();
-        // Path to the FXML File
-        String fxmlDocPath = "src/main/resources/Admin.fxml";
-        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
-
-        // Create the Pane and all Details
-        Pane root = (Pane) loader.load(fxmlStream);
-
-        // Create the Scene
-        Scene scene = new Scene(root);
-        primaryStage.setScene(scene);
-        primaryStage.show();
-
+    @FXML
+    private void clickManageUser(ActionEvent ev) throws IOException {
+        opening("ManagesTalkers",ev);
     }
 
+    @FXML
+    public void clickBack3(ActionEvent event) throws IOException {
+        opening("Admin",event);
+    }
 
     @FXML
     private void clickManageCat(ActionEvent e) throws IOException {
@@ -82,7 +73,8 @@ public class Admin extends Application {
             JSONArray jsonArray = (JSONArray) jsonObject.get("Category");
 
             if (jsonArray.contains(category.getText())) {
-                System.out.println("Deja exista categoria");
+                errorWindow("Deja exista categoria",event);
+
             } else {
                 jsonArray.add(category.getText());
                 sort(jsonArray);
@@ -128,7 +120,8 @@ public class Admin extends Application {
 
             } else {
 
-                System.out.println("Nu exista categoria");
+
+                errorWindow("Nu exista categoria",event);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -209,7 +202,8 @@ public class Admin extends Application {
 
                 newStage.show();
             } else {
-                System.out.println("Nu exista categoria");
+
+                errorWindow("Nu exista categoria",event);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -229,7 +223,8 @@ public class Admin extends Application {
             JSONArray jsonArray = (JSONArray) jsonObject.get("Category");
 
             if (jsonArray.contains(changeInTxt.getText())) {
-                System.out.println("Exista deja");
+
+                errorWindow("Exista deja",event);
             } else {
                 jsonArray.remove(change);
 

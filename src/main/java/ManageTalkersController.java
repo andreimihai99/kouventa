@@ -21,7 +21,7 @@ import java.io.*;
 import java.util.Base64;
 import java.util.Iterator;
 
-public class ManageTalkersController extends Application {
+public class ManageTalkersController extends LoginController {
     @FXML
     private TextField userInput;
 
@@ -51,85 +51,134 @@ public class ManageTalkersController extends Application {
     public static void main(String[] args){
         launch(args);
     }
-
-    @FXML
-    void blockUser(ActionEvent event) {
+    public int checkUser()  {
+        JSONObject obj = new JSONObject();
         JSONParser jsonParser = new JSONParser();
-
         try {
             JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("src/main/resources/db.json"));
             JSONArray jsonArray = (JSONArray) jsonObject.get("DataBase");
             Iterator iterator = jsonArray.iterator();
             while (iterator.hasNext()) {
-                JSONObject currentUser = (JSONObject) iterator.next();
-                if (currentUser.get("User").equals(userInput.getText())) {
-                    if(currentUser.get("Status").equals("Blocked")) {
-                        System.out.println("E blocat deja");
-                        return;
-                    }
-                    currentUser.replace("Status", "Blocked");
-                    break;
-                }
-            }
-            JSONObject aux = new JSONObject();
-            aux.put("DataBase", jsonArray);
-            try {
-                FileWriter file = new FileWriter("src/main/resources/db.json");
-                file.write(aux.toJSONString());
-                file.close();
+                JSONObject user = (JSONObject) iterator.next();
 
-            } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
+                if (userInput.getText().equals(user.get("User")))
+
+                    return 1;
             }
         }
-        catch (ParseException e) {
+
+         catch (FileNotFoundException e)  {
             e.printStackTrace();
-        } catch (FileNotFoundException e) {
+        } catch (IOException e)
+        {
             e.printStackTrace();
-        } catch (IOException e) {
+        } catch (ParseException e)
+        {
             e.printStackTrace();
+        }
+        //System.out.println("Username sau parola incorecte");
+        return 0;
+    }
+
+    @FXML
+    public void clickBack4(ActionEvent event) throws IOException {
+        opening("Admin",event);
+    }
+
+    @FXML
+    void blockUser(ActionEvent event) {
+        if (checkUser() == 1) {
+            JSONParser jsonParser = new JSONParser();
+            int verificator = 1;
+            try {
+                JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("src/main/resources/db.json"));
+                JSONArray jsonArray = (JSONArray) jsonObject.get("DataBase");
+                Iterator iterator = jsonArray.iterator();
+                while (iterator.hasNext()) {
+                    JSONObject currentUser = (JSONObject) iterator.next();
+                    if (currentUser.get("User").equals(userInput.getText())) {
+                        if (currentUser.get("Status").equals("Blocked")) {
+                            System.out.println("E blocat deja");
+
+                            return;
+                        }
+                        currentUser.replace("Status", "Blocked");
+
+                        break;
+                    }
+                }
+                JSONObject aux = new JSONObject();
+                aux.put("DataBase", jsonArray);
+                try {
+                    FileWriter file = new FileWriter("src/main/resources/db.json");
+                    file.write(aux.toJSONString());
+                    file.close();
+                    verificator = 0;
+                    return;
+
+                } catch (IOException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            } catch (ParseException e) {
+                e.printStackTrace();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        }
+        else
+        {
+            System.out.println("neah");
         }
     }
 
 
+
     @FXML
     void unblockUser(ActionEvent event) {
-        JSONParser jsonParser = new JSONParser();
+       if(checkUser()==1) {
+           JSONParser jsonParser = new JSONParser();
 
-        try {
-            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("src/main/resources/db.json"));
-            JSONArray jsonArray = (JSONArray) jsonObject.get("DataBase");
-            Iterator iterator = jsonArray.iterator();
-            while (iterator.hasNext()) {
-                JSONObject currentUser = (JSONObject) iterator.next();
-                if (currentUser.get("User").equals(userInput.getText())) {
-                    if(currentUser.get("Status").equals("Unblocked")) {
-                        System.out.println("E deblocat deja");
-                        return;
-                    }
-                    currentUser.replace("Status", "Unblocked");
-                    break;
-                }
-            }
-            JSONObject aux = new JSONObject();
-            aux.put("DataBase", jsonArray);
-            try {
-                FileWriter file = new FileWriter("src/main/resources/db.json");
-                file.write(aux.toJSONString());
-                file.close();
+           try {
+               JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("src/main/resources/db.json"));
+               JSONArray jsonArray = (JSONArray) jsonObject.get("DataBase");
+               Iterator iterator = jsonArray.iterator();
+               while (iterator.hasNext()) {
+                   JSONObject currentUser = (JSONObject) iterator.next();
+                   if (currentUser.get("User").equals(userInput.getText())) {
+                       if (currentUser.get("Status").equals("Unblocked")) {
+                           System.out.println("E deblocat deja");
+                           return;
+                       }
+                       currentUser.replace("Status", "Unblocked");
+                       break;
+                   }
+               }
+               JSONObject aux = new JSONObject();
+               aux.put("DataBase", jsonArray);
+               try {
+                   FileWriter file = new FileWriter("src/main/resources/db.json");
+                   file.write(aux.toJSONString());
+                   file.close();
 
-            } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
-        }
-        catch (ParseException e) {
-            e.printStackTrace();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+               } catch (IOException e) {
+                   // TODO Auto-generated catch block
+                   e.printStackTrace();
+               }
+           } catch (ParseException e) {
+               e.printStackTrace();
+           } catch (FileNotFoundException e) {
+               e.printStackTrace();
+           } catch (IOException e) {
+               e.printStackTrace();
+           }
+       }
+       else
+       {
+           errorWindow("Nu exista Talker-ul",event);
+       }
     }
 }
