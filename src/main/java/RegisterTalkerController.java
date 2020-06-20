@@ -30,14 +30,16 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class RegisterTalkerController extends LoginController
 {
+
+
     @FXML
-    private TextField nameText;
+    protected TextField nameText;
     @FXML
-    private TextField phoneText;
+    protected TextField phoneText;
     @FXML
-    private TextField passText;
+    protected TextField passText;
     @FXML
-    private TextField userText;
+    protected TextField userText;
     public String key = "Jar12345Jar12345";
     public String initVector = "RandomInitVector";
 
@@ -66,33 +68,13 @@ public class RegisterTalkerController extends LoginController
     }
 
     @FXML
-    private void clickRegisterTalker(ActionEvent event) throws IOException {
+    protected void clickRegisterTalker(ActionEvent event) throws IOException {
 
 
-        System.out.println(encrypt(key,initVector,passText.getText()));
-        System.out.println(decrypt(key,initVector,encrypt(key,initVector,passText.getText())));
         if (VerificareFormularCompletatCorect() == 1) {
             if (VerificareDBGoala() == 1) {
                 if (VerificareUserJSON() == 1) {
-                    Stage newStage1 =new Stage();
-                    Node source = (Node)  event.getSource();
-                    Stage stage  = (Stage) source.getScene().getWindow();
-                    stage.close();
-                    // Create the FXMLLoader
-                    FXMLLoader loader = new FXMLLoader();
-                    // Path to the FXML File
-                    String fxmlDocPath = "src/main/resources/LoginGUI.fxml";
-                    FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
-
-                    // Create the Pane and all Details
-                    Pane root = (Pane) loader.load(fxmlStream);
-
-                    // Create the Scene
-
-                    Scene scene = new Scene(root);
-                    newStage1.setScene(scene);
-
-                    newStage1.show();
+                    opening("LoginGUI",event);
                     updateDBase();
 
                 } else {
@@ -100,6 +82,7 @@ public class RegisterTalkerController extends LoginController
                     errorWindow("User-ul exista deja",event);
                 }
             } else {
+                opening("LoginGUI",event);
                 updateDBase();
             }
         }
@@ -137,7 +120,7 @@ public class RegisterTalkerController extends LoginController
         JSONParser jsonParser = new JSONParser();
         try {
 
-            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("src/main/resources/db.json"));
+           JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("src/main/resources/db.json"));
             JSONArray jsonArray = (JSONArray) jsonObject.get("DataBase");
             if(jsonArray.isEmpty()){
                 return 0;

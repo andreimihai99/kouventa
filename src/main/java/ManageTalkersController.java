@@ -22,8 +22,7 @@ import java.util.Iterator;
 
 public class ManageTalkersController extends LoginController {
     @FXML
-    private TextField userInput;
-
+    protected TextField userInput;
     @FXML
     private Button blockUserButton;
 

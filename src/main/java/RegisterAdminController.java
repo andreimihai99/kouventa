@@ -99,6 +99,7 @@ import javax.crypto.spec.SecretKeySpec;
                         errorWindow("User-ul exista deja",event);
                     }
                 } else {
+                    opening("LoginGUI",event);
                     updateDBase();
 
                 }
