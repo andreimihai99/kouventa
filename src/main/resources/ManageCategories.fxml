@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin">
+<AnchorPane prefHeight="270.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin">
    <children>
-      <Pane prefHeight="400.0" prefWidth="600.0">
+      <Pane prefHeight="270.0" prefWidth="430.0" style="-fx-background-color: #2EA1BD;">
          <children>
-             <Button fx:id="AddButton" layoutX="165.0" layoutY="227.0" mnemonicParsing="false" onAction="#clickAdd" text="Add" />
-             <Button fx:id="DeleteButton" layoutX="274.0" layoutY="227.0" mnemonicParsing="false" onAction="#clickDelete" text="Delete" />
-             <Button fx:id="ChangeButton" layoutX="382.0" layoutY="227.0" mnemonicParsing="false" onAction="#clickChange" text="Change" />
-             <TextField fx:id="category" layoutX="184.0" layoutY="148.0" />
+             <Button fx:id="AddButton" layoutX="103.0" layoutY="176.0" mnemonicParsing="false" onAction="#clickAdd" text="Add" />
+             <Button fx:id="DeleteButton" layoutX="190.0" layoutY="176.0" mnemonicParsing="false" onAction="#clickDelete" text="Delete" />
+             <Button fx:id="ChangeButton" layoutX="290.0" layoutY="176.0" mnemonicParsing="false" onAction="#clickChange" text="Change" />
+             <TextField fx:id="category" layoutX="141.0" layoutY="110.0" />
+            <Label layoutX="146.0" layoutY="46.0" text="Manage Categories">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
          </children></Pane>
    </children>
 </AnchorPane>
