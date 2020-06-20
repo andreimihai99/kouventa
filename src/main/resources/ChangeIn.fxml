@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin">
+<AnchorPane prefHeight="290.0" prefWidth="430.0" style="-fx-background-color: #2EA1BD;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin">
    <children>
-       <TextField fx:id="changeInTxt" layoutX="210.0" layoutY="175.0" prefHeight="25.0" prefWidth="180.0" promptText="Change in" />
-      <Button fx:id="cahngeInBtn" layoutX="274.0" layoutY="266.0" mnemonicParsing="false" onAction="#clickChangeIn" text="Change In" />
+       <TextField fx:id="changeInTxt" layoutX="124.0" layoutY="105.0" prefHeight="25.0" prefWidth="180.0" promptText="Change in" />
+      <Button fx:id="cahngeInBtn" layoutX="180.0" layoutY="175.0" mnemonicParsing="false" onAction="#clickChangeIn" text="Change In" />
    </children>
 </AnchorPane>

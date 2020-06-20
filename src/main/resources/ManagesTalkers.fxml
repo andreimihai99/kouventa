@@ -4,13 +4,16 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="300.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ManageTalkersController">
+<AnchorPane prefHeight="270.0" prefWidth="430.0" style="-fx-background-color: #2EA1BD;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ManagesTalkersController">
    <children>
-      <TextField fx:id="userInput" layoutX="136.0" layoutY="100.0" />
-      <Button fx:id="blockUserButton" layoutX="110.0" layoutY="181.0" mnemonicParsing="false" onAction="#blockUser" text="Button" />
-      <Button fx:id="unblockUserButton" layoutX="259.0" layoutY="181.0" mnemonicParsing="false" onAction="#unblockUser" text="Button" />
-      <Label layoutX="169.0" layoutY="37.0" text="Manage Talkers" />
+      <TextField fx:id="userInput" layoutX="138.0" layoutY="103.0" />
+      <Button fx:id="blockUserButton" layoutX="98.0" layoutY="182.0" mnemonicParsing="false" onAction="#blockUser" text="Block Talker" />
+      <Button fx:id="unblockUserButton" layoutX="240.0" layoutY="182.0" mnemonicParsing="false" onAction="#unblockUser" text="Unblock Talker" />
+      <Label layoutX="153.0" layoutY="39.0" text="Manage Talkers">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
    </children>
 </AnchorPane>
