@@ -3,42 +3,51 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baeldung</groupId>
-    <artifactId>core-java</artifactId>
+    <groupId>org.example</groupId>
+    <artifactId>kouventa</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <build>
         <plugins>
-
-
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.4.1</version>
+                <configuration>
+                    <finalName>kouventa</finalName>
+                    <!-- get all project dependencies -->
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <!-- MainClass in mainfest make a executable jar -->
+                    <archive>
+                        <manifest>
+                            <mainClass>Main</mainClass>
+                        </manifest>
+                    </archive>
+                    <appendAssemblyId>false</appendAssemblyId>
+                </configuration>
                 <executions>
                     <execution>
+                        <id>make-assembly</id>
+                        <!-- bind to the packaging phase -->
                         <phase>package</phase>
                         <goals>
                             <goal>single</goal>
                         </goals>
-                        <configuration>
-                            <archive>
-                                <manifest>
-                                    <mainClass>
-                                        <source>1.7</source>
-                                        <target>1.7</target>
-                                        com.baeldung.executable.ExecutableMavenJar
-                                    </mainClass>
-                                </manifest>
-                            </archive>
-                            <descriptorRefs>
-                                <descriptorRef>jar-with-dependencies</descriptorRef>
-                            </descriptorRefs>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
-
         </plugins>
+
     </build>
     <dependencies>
         <dependency>

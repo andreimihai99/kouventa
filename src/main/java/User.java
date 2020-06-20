@@ -39,8 +39,9 @@ public class User extends  LoginController {
 
     @FXML
     protected TextField postTxt;
-    private static String current_category=new String();
+    protected static String current_category=new String();
     private static Stage pStage;
+    protected String aug;
     protected List<Button> buttonlist = new ArrayList<Button>();
     public void deschidere(String aug, List buttonlist){
         try {
@@ -134,7 +135,7 @@ public class User extends  LoginController {
 
             Iterator iterator = jsonArray.iterator();
             while (iterator.hasNext()) {
-                String aug=new String((String)iterator.next());
+                aug=((String)iterator.next());
                 Button btn = new Button(aug);
                 btn.setId(aug);
 

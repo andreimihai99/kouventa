@@ -22,36 +22,8 @@
     <list default="true" id="dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EditProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ManageTalkersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManageTalkersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegisterAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegisterAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegisterTalkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegisterTalkerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Admin.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ChangeIn.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EditProfile.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EditProfileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Forum.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Forum.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginGUI.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ManageCategories.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ManageTalkersController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ManagesTalkers.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterAdmin.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterAdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterTalker.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterTalkerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TalkerGUI.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/User$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/keys.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forum.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forum.json" afterDir="false" />
     </list>
     <list id="975d5724-848c-4596-b51a-deb9c70aa2e2" name="Uncommitted changes before Merge at 6/20/2020 4:18 PM [Default Changelist]" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,14 +89,7 @@
       <recent name="C:\Users\MDM\Desktop\kouventa-master\src\main\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ManageTalkersController">
-    <configuration name="Admin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Admin" />
-      <module name="kouventa-master" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JAR Application.kouventa.jar">
     <configuration name="EditProfileController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EditProfileController" />
       <module name="kouventa-master" />
@@ -141,7 +106,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="AplicatieFIS" />
+      <module name="kouventa-master" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,13 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kouventa.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/kouventa.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.kouventa.jar" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ManageTalkersController" />
         <item itemvalue="Application.LoginController" />
         <item itemvalue="Application.EditProfileController" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Admin" />
       </list>
     </recent_temporary>
   </component>
@@ -207,11 +176,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="657" y="139" key="#LoginController/0.0.1920.1040@0.0.1920.1040" timestamp="1592659439683" />
-    <state x="467" y="45" key="#Main" timestamp="1592314249560">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="657" y="139" key="#Main" timestamp="1592668333243">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="467" y="45" key="#Main/0.0.1366.728@0.0.1366.728" timestamp="1592314249560" />
-    <state x="657" y="139" key="#Main/0.0.1920.1040@0.0.1920.1040" timestamp="1592111988545" />
+    <state x="657" y="139" key="#Main/0.0.1920.1040@0.0.1920.1040" timestamp="1592668333243" />
     <state x="657" y="139" key="#ManageTalkersController" timestamp="1592664629386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -250,26 +219,26 @@
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588780359342" />
     <state x="651" y="150" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589290967094" />
-    <state width="1308" height="282" key="GridCell.Tab.0.bottom" timestamp="1592667535679">
+    <state width="1307" height="282" key="GridCell.Tab.0.bottom" timestamp="1592669094057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="127" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592511555520" />
-    <state width="1308" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592667535679" />
-    <state width="1308" height="282" key="GridCell.Tab.0.center" timestamp="1592667535679">
+    <state width="1307" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592669094057" />
+    <state width="1307" height="282" key="GridCell.Tab.0.center" timestamp="1592669094057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="127" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592511555520" />
-    <state width="1308" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592667535679" />
-    <state width="1308" height="282" key="GridCell.Tab.0.left" timestamp="1592667535679">
+    <state width="1307" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592669094057" />
+    <state width="1307" height="282" key="GridCell.Tab.0.left" timestamp="1592669094057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="127" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592511555520" />
-    <state width="1308" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592667535679" />
-    <state width="1308" height="282" key="GridCell.Tab.0.right" timestamp="1592667535679">
+    <state width="1307" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592669094057" />
+    <state width="1307" height="282" key="GridCell.Tab.0.right" timestamp="1592669094057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="127" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592511555520" />
-    <state width="1308" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592667535679" />
+    <state width="1307" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592669094057" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1592250649248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -313,11 +282,11 @@
     </state>
     <state x="368" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588878356056" />
     <state x="517" y="19" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592230872975" />
-    <state x="393" y="176" key="Vcs.Push.Dialog.v2" timestamp="1592511419180">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592668038286">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592511419180" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592147046866" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592668038286" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1592654893224">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
