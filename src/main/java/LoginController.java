@@ -98,7 +98,7 @@ public class LoginController extends Main implements Initializable {
     }
 
     public void errorWindow(String s,ActionEvent ev){
-        Stage newStage =new Stage();
+         final Stage newStage =new Stage();
         Label text=new Label(s);
 
         text.setFont(Font.font(13));

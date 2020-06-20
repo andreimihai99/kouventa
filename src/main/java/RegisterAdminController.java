@@ -30,7 +30,7 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-    public class RegisterAdminController
+    public class RegisterAdminController extends LoginController
     {
         @FXML
         private TextField nameText;
@@ -96,7 +96,7 @@ import javax.crypto.spec.SecretKeySpec;
 
                         newStage.show();
                     } else {
-                        System.out.println("Exista deja");
+                        errorWindow("User-ul exista deja",event);
                     }
                 } else {
                     updateDBase();
@@ -105,7 +105,7 @@ import javax.crypto.spec.SecretKeySpec;
             }
             else
             {
-                System.out.println("Va rugam complatati corect formularul");
+                errorWindow("Completati corect formularul",event);
             }
 
         }
@@ -265,7 +265,7 @@ import javax.crypto.spec.SecretKeySpec;
             {
                 e.printStackTrace();
             }
-            System.out.println("Cont Creat");
+
             return 1;
 
 

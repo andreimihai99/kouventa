@@ -271,7 +271,7 @@ public class Admin extends LoginController {
 
                     JSONObject aug = new JSONObject();
                     aug.put(changeInTxt.getText(), prov);
-                    System.out.println();
+
                     jsonArray.add(aug);
 
                 JSONObject aug2 = new JSONObject();

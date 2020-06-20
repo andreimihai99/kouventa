@@ -1,5 +1,4 @@
-import com.sun.deploy.security.SelectableSecurityManager;
-import javafx.application.Application;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -98,7 +97,7 @@ public class ManageTalkersController extends LoginController {
                     JSONObject currentUser = (JSONObject) iterator.next();
                     if (currentUser.get("User").equals(userInput.getText())) {
                         if (currentUser.get("Status").equals("Blocked")) {
-                            System.out.println("E blocat deja");
+                            errorWindow("E blocat deja",event);
 
                             return;
                         }
@@ -131,7 +130,7 @@ public class ManageTalkersController extends LoginController {
         }
         else
         {
-            System.out.println("neah");
+            errorWindow("Nu exista Talker-ul",event);
         }
     }
 
@@ -150,7 +149,7 @@ public class ManageTalkersController extends LoginController {
                    JSONObject currentUser = (JSONObject) iterator.next();
                    if (currentUser.get("User").equals(userInput.getText())) {
                        if (currentUser.get("Status").equals("Unblocked")) {
-                           System.out.println("E deblocat deja");
+                           errorWindow("E deblocat deja",event);
                            return;
                        }
                        currentUser.replace("Status", "Unblocked");

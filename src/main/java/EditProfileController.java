@@ -50,7 +50,7 @@ public class EditProfileController extends LoginController {
             opening("TalkerGUI",event);
         }
         else{
-            System.out.println("nu e bine");
+            errorWindow("Completati corect",event);
         }
     }
 
@@ -78,7 +78,7 @@ public class EditProfileController extends LoginController {
             Iterator iterator = jsonArray.iterator();
             while (iterator.hasNext()) {
                 JSONObject currentUser = (JSONObject) iterator.next();
-                System.out.println();
+
                 if (currentUser.get("User").equals(user)) {
                     currentUser.replace("Full name", newNameField.getText());
                     currentUser.replace("Password", encrypt(key, initVector, newPasswordField.getText()));

@@ -28,7 +28,7 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-public class RegisterTalkerController
+public class RegisterTalkerController extends LoginController
 {
     @FXML
     private TextField nameText;
@@ -96,7 +96,8 @@ public class RegisterTalkerController
                     updateDBase();
 
                 } else {
-                    System.out.println("Exista deja");
+
+                    errorWindow("User-ul exista deja",event);
                 }
             } else {
                 updateDBase();
@@ -104,7 +105,8 @@ public class RegisterTalkerController
         }
         else
         {
-            System.out.println("Va rugam complatati corect formularul");
+
+            errorWindow("Va rugam complatati corect formularul",event);
         }
     }
 
@@ -231,7 +233,7 @@ public class RegisterTalkerController
         {
             e.printStackTrace();
         }
-        System.out.println("Cont Creat");
+
         return 1;
 
 

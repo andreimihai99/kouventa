@@ -41,7 +41,7 @@ public class User extends  LoginController {
     protected TextField postTxt;
     private static String current_category=new String();
     private static Stage pStage;
-    protected List<Button> buttonlist = new ArrayList<>();
+    protected List<Button> buttonlist = new ArrayList<Button>();
     public void deschidere(String aug, List buttonlist){
         try {
             current_category = aug;
