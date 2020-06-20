@@ -1,0 +1,612 @@
+Index: src/main/resources/EditProfile.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<?import javafx.scene.control.Button?>\r\n<?import javafx.scene.control.Label?>\r\n<?import javafx.scene.control.PasswordField?>\r\n<?import javafx.scene.control.TextField?>\r\n<?import javafx.scene.layout.AnchorPane?>\r\n\r\n\r\n<AnchorPane prefHeight=\"400.0\" prefWidth=\"288.0\" xmlns=\"http://javafx.com/javafx/8.0.171\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"EditProfile\">\r\n   <children>\r\n      <TextField fx:id=\"newNameField\" layoutX=\"70.0\" layoutY=\"121.0\" promptText=\" new name\" />\r\n      <TextField fx:id=\"newPhoneField\" layoutX=\"70.0\" layoutY=\"167.0\" prefHeight=\"25.0\" prefWidth=\"149.0\" promptText=\"new phone number\" />\r\n      <PasswordField fx:id=\"newPasswordField\" layoutX=\"70.0\" layoutY=\"216.0\" promptText=\"new password\" />\r\n      <Label layoutX=\"116.0\" layoutY=\"44.0\" text=\"Edit Profile\" />\r\n      <Button fx:id=\"saveButton\" layoutX=\"118.0\" layoutY=\"298.0\" mnemonicParsing=\"false\" onAction=\"#clickSave\" text=\"Save\" />\r\n   </children>\r\n</AnchorPane>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/EditProfile.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ src/main/resources/EditProfile.fxml	(date 1592574471709)
+@@ -7,7 +7,7 @@
+ <?import javafx.scene.layout.AnchorPane?>
+ 
+ 
+-<AnchorPane prefHeight="400.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EditProfile">
++<AnchorPane prefHeight="400.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EditProfileController">
+    <children>
+       <TextField fx:id="newNameField" layoutX="70.0" layoutY="121.0" promptText=" new name" />
+       <TextField fx:id="newPhoneField" layoutX="70.0" layoutY="167.0" prefHeight="25.0" prefWidth="149.0" promptText="new phone number" />
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n    <groupId>com.baeldung</groupId>\r\n    <artifactId>core-java</artifactId>\r\n    <version>0.1.0-SNAPSHOT</version>\r\n    <packaging>jar</packaging>\r\n    <build>\r\n        <plugins>\r\n            <plugin>\r\n                <groupId>com.zenjava</groupId>\r\n                <artifactId>javafx-maven-plugin</artifactId>\r\n                <version>8.8.3</version>\r\n                <configuration>\r\n                    <mainClass>your.package.with.Launcher</mainClass>\r\n                </configuration>\r\n            </plugin>\r\n            <plugin>\r\n                <groupId>com.zenjava</groupId>\r\n                <artifactId>javafx-maven-plugin</artifactId>\r\n                <version>8.8.3</version>\r\n                <configuration>\r\n                    <vendor>YourCompany</vendor>\r\n                    <mainClass>your.package.with.Launcher</mainClass>\r\n                </configuration>\r\n            </plugin>\r\n            <plugin>\r\n                <groupId>com.zenjava</groupId>\r\n                <artifactId>javafx-maven-plugin</artifactId>\r\n                <version>8.8.3</version>\r\n                <configuration>\r\n                    <mainClass>your.package.with.Launcher</mainClass>\r\n                </configuration>\r\n            </plugin>\r\n            <plugin>\r\n                <groupId>org.apache.maven.plugins</groupId>\r\n                <artifactId>maven-assembly-plugin</artifactId>\r\n                <executions>\r\n                    <execution>\r\n                        <phase>package</phase>\r\n                        <goals>\r\n                            <goal>single</goal>\r\n                        </goals>\r\n                        <configuration>\r\n                            <archive>\r\n                                <manifest>\r\n                                    <mainClass>\r\n                                        com.baeldung.executable.ExecutableMavenJar\r\n                                    </mainClass>\r\n                                </manifest>\r\n                            </archive>\r\n                            <descriptorRefs>\r\n                                <descriptorRef>jar-with-dependencies</descriptorRef>\r\n                            </descriptorRefs>\r\n                        </configuration>\r\n                    </execution>\r\n                </executions>\r\n            </plugin>\r\n            <plugin>\r\n                <groupId>org.apache.maven.plugins</groupId>\r\n                <artifactId>maven-compiler-plugin</artifactId>\r\n                <configuration>\r\n                    <source>8</source>\r\n                    <target>8</target>\r\n                </configuration>\r\n            </plugin>\r\n        </plugins>\r\n    </build>\r\n    <dependencies>\r\n\r\n\r\n        <dependency>\r\n        <groupId>com.googlecode.json-simple</groupId>\r\n        <artifactId>json-simple</artifactId>\r\n        <version>1.1.1</version>\r\n    </dependency>\r\n        <dependency>\r\n            <groupId>org.slf4j</groupId>\r\n            <artifactId>slf4j-api</artifactId>\r\n            <version>1.7.30</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.slf4j</groupId>\r\n            <artifactId>slf4j-simple</artifactId>\r\n            <version>1.7.30</version>\r\n        </dependency>\r\n\r\n\r\n    </dependencies>\r\n\r\n\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ pom.xml	(date 1592658649434)
+@@ -17,23 +17,8 @@
+                     <mainClass>your.package.with.Launcher</mainClass>
+                 </configuration>
+             </plugin>
+-            <plugin>
+-                <groupId>com.zenjava</groupId>
+-                <artifactId>javafx-maven-plugin</artifactId>
+-                <version>8.8.3</version>
+-                <configuration>
+-                    <vendor>YourCompany</vendor>
+-                    <mainClass>your.package.with.Launcher</mainClass>
+-                </configuration>
+-            </plugin>
+-            <plugin>
+-                <groupId>com.zenjava</groupId>
+-                <artifactId>javafx-maven-plugin</artifactId>
+-                <version>8.8.3</version>
+-                <configuration>
+-                    <mainClass>your.package.with.Launcher</mainClass>
+-                </configuration>
+-            </plugin>
++
++
+             <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-assembly-plugin</artifactId>
+@@ -58,14 +43,7 @@
+                     </execution>
+                 </executions>
+             </plugin>
+-            <plugin>
+-                <groupId>org.apache.maven.plugins</groupId>
+-                <artifactId>maven-compiler-plugin</artifactId>
+-                <configuration>
+-                    <source>8</source>
+-                    <target>8</target>
+-                </configuration>
+-            </plugin>
++
+         </plugins>
+     </build>
+     <dependencies>
+Index: src/main/resources/db.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"DataBase\":[{\"User\":\"madalinminea\",\"Phone\":\"1234567890\",\"Rol\":\"Talker\",\"Full name\":\"Madalin Minea\",\"Password\":\"TyTn3ARW9ecPVEufrONKYg==\"},{\"User\":\"mihaiandrei\",\"Phone\":\"1234567890\",\"Rol\":\"Talker\",\"Full name\":\"mihai andrei\",\"Password\":\"TyTn3ARW9ecPVEufrONKYg==\"},{\"User\":\"andrei\",\"Phone\":\"1234567890\",\"Rol\":\"Admin\",\"Full name\":\"popescu\",\"Password\":\"JBb6fm\\/HKcJPCYr\\/dd979w==\"},{\"User\":\"sadsadsadasdsadsa\",\"Phone\":\"1234567890\",\"Rol\":\"Admin\",\"Full name\":\"dsadasdsadasd\",\"Password\":\"RC8e5hDpZedFpNoMrpWtDQ==\"},{\"User\":\"sadasdasdas\",\"Phone\":\"1231231233\",\"Rol\":\"Admin\",\"Full name\":\"dasdasdas\",\"Password\":\"4DHhXpKlB6lrW\\/rhR+LgRg==\"},{\"User\":\"awdadwada\",\"Phone\":\"1231231233\",\"Rol\":\"Admin\",\"Full name\":\"asdadasdas\",\"Password\":\"A\\/KfqGIqUGSj+afTrazIJQ==\"},{\"User\":\"asdasdsadsa\",\"Phone\":\"1231231123\",\"Rol\":\"Admin\",\"Full name\":\"asdsadasdas\",\"Password\":\"jWIsDM2AmXNrPLdhkyqc5A==\"},{\"User\":\"asdsadasdas\",\"Phone\":\"1231231233\",\"Rol\":\"Talker\",\"Full name\":\"asdasdasd\",\"Password\":\"bQoKaZgcydSxCThB0RXApA==\"},{\"User\":\"assdasdasdsa\",\"Phone\":\"1231231233\",\"Rol\":\"Admin\",\"Full name\":\"adsadasdasdsa\",\"Password\":\"JROkaoLlIPs1SdLZ0XPyLw==\"},{\"User\":\"dasdasdasd\",\"Phone\":\"1231231233\",\"Rol\":\"Admin\",\"Full name\":\"asdasdasdas\",\"Password\":\"22FxBhXcL54G1fXeM60ZNg==\"},{\"Status\":\"Unblocked\",\"User\":\"andreimihai\",\"Phone\":\"9876543210\",\"Rol\":\"Talker\",\"Full name\":\"MAIHIANDINSAJ\",\"Password\":\"IT9yzp\\/ox7jdwgw8vl15Wg==\"}]}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/db.json	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ src/main/resources/db.json	(date 1592576283877)
+@@ -1,1 +1,1 @@
+-{"DataBase":[{"User":"madalinminea","Phone":"1234567890","Rol":"Talker","Full name":"Madalin Minea","Password":"TyTn3ARW9ecPVEufrONKYg=="},{"User":"mihaiandrei","Phone":"1234567890","Rol":"Talker","Full name":"mihai andrei","Password":"TyTn3ARW9ecPVEufrONKYg=="},{"User":"andrei","Phone":"1234567890","Rol":"Admin","Full name":"popescu","Password":"JBb6fm\/HKcJPCYr\/dd979w=="},{"User":"sadsadsadasdsadsa","Phone":"1234567890","Rol":"Admin","Full name":"dsadasdsadasd","Password":"RC8e5hDpZedFpNoMrpWtDQ=="},{"User":"sadasdasdas","Phone":"1231231233","Rol":"Admin","Full name":"dasdasdas","Password":"4DHhXpKlB6lrW\/rhR+LgRg=="},{"User":"awdadwada","Phone":"1231231233","Rol":"Admin","Full name":"asdadasdas","Password":"A\/KfqGIqUGSj+afTrazIJQ=="},{"User":"asdasdsadsa","Phone":"1231231123","Rol":"Admin","Full name":"asdsadasdas","Password":"jWIsDM2AmXNrPLdhkyqc5A=="},{"User":"asdsadasdas","Phone":"1231231233","Rol":"Talker","Full name":"asdasdasd","Password":"bQoKaZgcydSxCThB0RXApA=="},{"User":"assdasdasdsa","Phone":"1231231233","Rol":"Admin","Full name":"adsadasdasdsa","Password":"JROkaoLlIPs1SdLZ0XPyLw=="},{"User":"dasdasdasd","Phone":"1231231233","Rol":"Admin","Full name":"asdasdasdas","Password":"22FxBhXcL54G1fXeM60ZNg=="},{"Status":"Unblocked","User":"andreimihai","Phone":"9876543210","Rol":"Talker","Full name":"MAIHIANDINSAJ","Password":"IT9yzp\/ox7jdwgw8vl15Wg=="}]}
+\ No newline at end of file
++{"DataBase":[{"Status":"Blocked","User":"user123","Phone":"0987654321","Rol":"Talker","Full name":"minea","Password":"qUOROt9vJveHTiw4jVRDBQ=="},{"Status":"Unblocked","User":"user321","Phone":"1234567890","Rol":"Admin","Full name":"mihai","Password":"TyTn3ARW9ecPVEufrONKYg=="}]}
+\ No newline at end of file
+Index: src/main/resources/Categories.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"Category\":[\"dorabora\",\"s1\",\"s4\"]}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/Categories.json	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ src/main/resources/Categories.json	(date 1592576078759)
+@@ -1,1 +1,1 @@
+-{"Category":["dorabora","s1","s4"]}
+\ No newline at end of file
++{"Category":["dorabora","qwer","s1","s4"]}
+\ No newline at end of file
+Index: src/main/java/LoginController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import javafx.event.ActionEvent;\r\nimport javafx.fxml.FXMLLoader;\r\nimport javafx.fxml.Initializable;\r\nimport javafx.scene.Node;\r\nimport javafx.scene.Scene;\r\nimport javafx.scene.control.Button;\r\nimport javafx.scene.control.PasswordField;\r\nimport javafx.scene.control.TextField;\r\nimport javafx.scene.layout.Pane;\r\nimport javafx.stage.Stage;\r\nimport org.json.simple.JSONArray;\r\nimport org.json.simple.JSONObject;\r\nimport org.json.simple.parser.JSONParser;\r\nimport org.json.simple.parser.ParseException;\r\nimport javafx.fxml.FXML;\r\n\r\nimport javax.crypto.Cipher;\r\nimport javax.crypto.spec.IvParameterSpec;\r\nimport javax.crypto.spec.SecretKeySpec;\r\nimport java.io.FileInputStream;\r\nimport java.io.FileNotFoundException;\r\nimport java.io.FileReader;\r\nimport java.io.IOException;\r\nimport java.net.URL;\r\nimport java.util.Base64;\r\nimport java.util.Iterator;\r\nimport java.util.ResourceBundle;\r\n\r\npublic class LoginController extends Main implements Initializable {\r\n\r\n\r\n\r\n    public Button loginButton;\r\n    public PasswordField passwordField;\r\n    public TextField usernameField;\r\n    public Button loginRegisterButton;\r\n    public Button loginRegisterAdminButton;\r\n    public String key = \"Jar12345Jar12345\";\r\n    public String initVector = \"RandomInitVector\";\r\n\r\n    public void initialize(URL location, ResourceBundle resources) {\r\n    }\r\n\r\n    @FXML\r\n    private void clickLoginButton(ActionEvent event) throws IOException{\r\n        if(verificareFormular() == 1 && checkUserJSON() == 1) {\r\n            System.out.println(\"Acces permis\");\r\n            user = usernameField.getText();\r\n        }\r\n        else\r\n            System.out.println(\"Username sau parola gresite\");\r\n    }\r\n\r\n    public int verificareFormular(){\r\n        if(usernameField.getText().isEmpty()) {\r\n            return 0;\r\n        }\r\n        if(passwordField.getText().isEmpty()){\r\n            return 0;\r\n        }\r\n        return 1;\r\n    }\r\n\r\n    public int checkUserJSON(){\r\n        JSONObject obj = new JSONObject();\r\n        JSONParser jsonParser = new JSONParser();\r\n        try {\r\n            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(\"src/main/resources/db.json\"));\r\n            JSONArray jsonArray = (JSONArray) jsonObject.get(\"DataBase\");\r\n            Iterator iterator = jsonArray.iterator();\r\n            while(iterator.hasNext()) {\r\n                JSONObject user= (JSONObject) iterator.next();\r\n\r\n                if(usernameField.getText().equals(user.get(\"User\")) && encrypt(key, initVector,passwordField.getText()).equals(user.get(\"Password\")))\r\n                {\r\n                    //System.out.println(\"Intra in aplicatie\");\r\n                    return 1;\r\n                }\r\n            }\r\n        } catch (FileNotFoundException e)  {\r\n            e.printStackTrace();\r\n        } catch (IOException e)\r\n        {\r\n            e.printStackTrace();\r\n        } catch (ParseException e)\r\n        {\r\n            e.printStackTrace();\r\n        }\r\n        //System.out.println(\"Username sau parola incorecte\");\r\n        return 0;\r\n    }\r\n\r\n    public void clickLoginRegisterButton(ActionEvent actionEvent) throws Exception {\r\n        Stage newStage =new Stage();\r\n        Node  source = (Node)  actionEvent.getSource();\r\n        Stage stage  = (Stage) source.getScene().getWindow();\r\n        stage.close();\r\n        // Create the FXMLLoader\r\n        FXMLLoader loader = new FXMLLoader();\r\n        // Path to the FXML File\r\n        String fxmlDocPath = \"src/main/resources/RegisterTalker.fxml\";\r\n        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);\r\n\r\n        // Create the Pane and all Details\r\n        Pane root = (Pane) loader.load(fxmlStream);\r\n\r\n        // Create the Scene\r\n\r\n        Scene scene = new Scene(root);\r\n        newStage.setScene(scene);\r\n\r\n        newStage.show();\r\n\r\n    }\r\n\r\n\r\n\r\n    public void clickLoginRegisterAdminButton(ActionEvent actionEvent) throws Exception {\r\n        Stage newStage =new Stage();\r\n        Node  source = (Node)  actionEvent.getSource();\r\n        Stage stage  = (Stage) source.getScene().getWindow();\r\n        stage.close();\r\n        FXMLLoader loader = new FXMLLoader();\r\n        // Path to the FXML File\r\n        String fxmlDocPath = \"src/main/resources/RegisterAdmin.fxml\";\r\n        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);\r\n\r\n        // Create the Pane and all Details\r\n        Pane root = (Pane) loader.load(fxmlStream);\r\n\r\n        // Create the Scene\r\n\r\n        Scene scene = new Scene(root);\r\n        newStage.setScene(scene);\r\n\r\n        newStage.show();\r\n\r\n\r\n    }\r\n\r\n    public static String encrypt(String key, String initVector, String value)\r\n    {\r\n        try {\r\n            IvParameterSpec iv = new IvParameterSpec(initVector.getBytes(\"UTF-8\"));\r\n            SecretKeySpec skeySpec = new SecretKeySpec(key.getBytes(\"UTF-8\"), \"AES\");\r\n\r\n            Cipher cipher = Cipher.getInstance(\"AES/CBC/PKCS5PADDING\");\r\n            cipher.init(1, skeySpec, iv);\r\n\r\n            byte[] encrypted = cipher.doFinal(value.getBytes());\r\n\r\n            return Base64.getEncoder().encodeToString(encrypted);\r\n        } catch (Exception ex) {\r\n            ex.printStackTrace();\r\n        }\r\n\r\n        return null;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/LoginController.java	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ src/main/java/LoginController.java	(date 1592576484777)
+@@ -26,29 +26,61 @@
+ import java.util.Iterator;
+ import java.util.ResourceBundle;
+ 
+-public class LoginController extends Main implements Initializable {
++public class LoginController extends Main  {
+ 
+ 
+-
++    @FXML
+     public Button loginButton;
++    @FXML
+     public PasswordField passwordField;
++    @FXML
+     public TextField usernameField;
++    @FXML
+     public Button loginRegisterButton;
++    @FXML
+     public Button loginRegisterAdminButton;
+     public String key = "Jar12345Jar12345";
+     public String initVector = "RandomInitVector";
+ 
+-    public void initialize(URL location, ResourceBundle resources) {
++    protected void opening(String s, ActionEvent a) throws IOException {
++        Stage newStage =new Stage();
++        Node  source = (Node)  a.getSource();
++        Stage stage  = (Stage) source.getScene().getWindow();
++        stage.close();
++        // Create the FXMLLoader
++        FXMLLoader loader = new FXMLLoader();
++        // Path to the FXML File
++        String fxmlDocPath = "src/main/resources/"+s+".fxml";
++        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
++
++        // Create the Pane and all Details
++        Pane root = (Pane) loader.load(fxmlStream);
++
++        // Create the Scene
++
++        Scene scene = new Scene(root);
++        newStage.setScene(scene);
++
++        newStage.show();
+     }
+ 
+     @FXML
+     private void clickLoginButton(ActionEvent event) throws IOException{
+         if(verificareFormular() == 1 && checkUserJSON() == 1) {
+-            System.out.println("Acces permis");
++
+             user = usernameField.getText();
++            opening("TalkerGUI",event);
++        }
++        if(verificareFormular() == 1 && checkUserJSON() == 2) {
++            System.out.println("esti blocat");
++
+         }
+-        else
+-            System.out.println("Username sau parola gresite");
++        if(verificareFormular() == 1 && checkUserJSON() == 3) {
++
++            user = usernameField.getText();
++            opening("Admin",event);
++        }
++
+     }
+ 
+     public int verificareFormular(){
+@@ -71,11 +103,19 @@
+             while(iterator.hasNext()) {
+                 JSONObject user= (JSONObject) iterator.next();
+ 
+-                if(usernameField.getText().equals(user.get("User")) && encrypt(key, initVector,passwordField.getText()).equals(user.get("Password")))
++                if(usernameField.getText().equals(user.get("User")) && encrypt(key, initVector,passwordField.getText()).equals(user.get("Password"))&&user.get("Status").equals("Unblocked")&&user.get("Rol").equals("Talker"))
+                 {
+-                    //System.out.println("Intra in aplicatie");
+                     return 1;
+                 }
++                if(usernameField.getText().equals(user.get("User")) && encrypt(key, initVector,passwordField.getText()).equals(user.get("Password"))&&user.get("Status").equals("Blocked"))
++                {
++                    return 2;
++                }
++                if(usernameField.getText().equals(user.get("User")) && encrypt(key, initVector,passwordField.getText()).equals(user.get("Password"))&&user.get("Status").equals("Unblocked")&&user.get("Rol").equals("Admin"))
++                {
++                    return 3;
++                }
++                
+             }
+         } catch (FileNotFoundException e)  {
+             e.printStackTrace();
+@@ -91,49 +131,14 @@
+     }
+ 
+     public void clickLoginRegisterButton(ActionEvent actionEvent) throws Exception {
+-        Stage newStage =new Stage();
+-        Node  source = (Node)  actionEvent.getSource();
+-        Stage stage  = (Stage) source.getScene().getWindow();
+-        stage.close();
+-        // Create the FXMLLoader
+-        FXMLLoader loader = new FXMLLoader();
+-        // Path to the FXML File
+-        String fxmlDocPath = "src/main/resources/RegisterTalker.fxml";
+-        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+-
+-        // Create the Pane and all Details
+-        Pane root = (Pane) loader.load(fxmlStream);
+-
+-        // Create the Scene
+-
+-        Scene scene = new Scene(root);
+-        newStage.setScene(scene);
+-
+-        newStage.show();
++        opening("RegisterTalker",actionEvent);
+ 
+     }
+ 
+ 
+ 
+     public void clickLoginRegisterAdminButton(ActionEvent actionEvent) throws Exception {
+-        Stage newStage =new Stage();
+-        Node  source = (Node)  actionEvent.getSource();
+-        Stage stage  = (Stage) source.getScene().getWindow();
+-        stage.close();
+-        FXMLLoader loader = new FXMLLoader();
+-        // Path to the FXML File
+-        String fxmlDocPath = "src/main/resources/RegisterAdmin.fxml";
+-        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+-
+-        // Create the Pane and all Details
+-        Pane root = (Pane) loader.load(fxmlStream);
+-
+-        // Create the Scene
+-
+-        Scene scene = new Scene(root);
+-        newStage.setScene(scene);
+-
+-        newStage.show();
++        opening("RegisterAdmin",actionEvent);
+ 
+ 
+     }
+Index: src/main/resources/Admin.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<?import javafx.scene.control.*?>\r\n<?import javafx.scene.layout.*?>\r\n\r\n\r\n<AnchorPane prefHeight=\"400.0\" prefWidth=\"600.0\" xmlns=\"http://javafx.com/javafx/10.0.2-internal\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"Admin\">\r\n   <children>\r\n      <AnchorPane prefHeight=\"400.0\" prefWidth=\"600.0\">\r\n         <children>\r\n            <Button layoutX=\"41.0\" layoutY=\"88.0\" mnemonicParsing=\"false\" text=\"Manage Users\" />\r\n             <Button fx:id=\"manage\" layoutX=\"153.0\" layoutY=\"245.0\" mnemonicParsing=\"false\" onAction=\"#clickManageCat\" text=\"Manage Categories\" />\r\n\r\n         </children>\r\n      </AnchorPane>\r\n   </children>\r\n</AnchorPane>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/Admin.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ src/main/resources/Admin.fxml	(date 1592576217199)
+@@ -3,12 +3,11 @@
+ <?import javafx.scene.control.*?>
+ <?import javafx.scene.layout.*?>
+ 
+-
+ <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin">
+    <children>
+       <AnchorPane prefHeight="400.0" prefWidth="600.0">
+          <children>
+-            <Button layoutX="41.0" layoutY="88.0" mnemonicParsing="false" text="Manage Users" />
++            <Button layoutX="41.0" layoutY="88.0" mnemonicParsing="false" onAction="#clickManageUser" text="Manage Users" />
+              <Button fx:id="manage" layoutX="153.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickManageCat" text="Manage Categories" />
+ 
+          </children>
+Index: src/main/java/User.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.*;\r\nimport java.util.ArrayList;\r\nimport java.util.Iterator;\r\nimport java.util.List;\r\n\r\nimport javafx.application.Application;\r\nimport javafx.collections.ObservableList;\r\nimport javafx.event.ActionEvent;\r\nimport javafx.event.EventHandler;\r\nimport javafx.fxml.FXML;\r\nimport javafx.fxml.FXMLLoader;\r\nimport javafx.scene.Group;\r\nimport javafx.scene.Node;\r\nimport javafx.scene.Scene;\r\n\r\nimport javafx.scene.SubScene;\r\nimport javafx.scene.control.Button;\r\nimport javafx.scene.control.ScrollPane;\r\nimport javafx.scene.control.TextArea;\r\nimport javafx.scene.control.TextField;\r\n\r\nimport javafx.scene.layout.AnchorPane;\r\nimport javafx.scene.layout.Pane;\r\nimport javafx.scene.paint.Color;\r\nimport javafx.scene.text.Font;\r\nimport javafx.scene.text.Text;\r\nimport javafx.scene.text.TextAlignment;\r\nimport javafx.scene.text.TextFlow;\r\nimport javafx.stage.Stage;\r\nimport org.json.simple.JSONArray;\r\nimport org.json.simple.JSONObject;\r\nimport org.json.simple.parser.JSONParser;\r\nimport org.json.simple.parser.ParseException;\r\n\r\nimport static java.util.Collections.sort;\r\n\r\npublic class User extends  Application {\r\n\r\n\r\n    @FXML\r\n    protected TextField postTxt;\r\n    private static String current_category=new String();\r\n    private static Stage pStage;\r\n    protected List<Button> buttonlist = new ArrayList<>();\r\n    public void deschidere(String aug, List buttonlist){\r\n        try {\r\n            current_category = aug;\r\n            String prov=new String();\r\n            JSONParser jsonParser = new JSONParser();\r\n\r\n            try {\r\n\r\n                JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(\"src/main/resources/Forum.json\"));\r\n                JSONArray jsonArray = (JSONArray) jsonObject.get(\"Database\");\r\n                JSONObject aj=new JSONObject();\r\n\r\n\r\n                Iterator iterator = jsonArray.iterator();\r\n                while (iterator.hasNext()) {\r\n                    JSONObject categ = (JSONObject) iterator.next();\r\n                    if (categ.containsKey(current_category)) {\r\n                        prov = (String) categ.get(current_category);\r\n                        break;\r\n\r\n                    }\r\n                }\r\n\r\n            } catch (FileNotFoundException e)  {\r\n                e.printStackTrace();\r\n            } catch (IOException e)\r\n            {\r\n                e.printStackTrace();\r\n            } catch (ParseException e)\r\n            {\r\n                e.printStackTrace();\r\n            }\r\n            pStage.close();\r\n            Text txtField = new Text();\r\n            txtField.setX(340);\r\n            txtField.setY(20);\r\n            txtField.setText(prov);\r\n            Stage newStageSec = new Stage();\r\n\r\n\r\n            // Create the FXMLLoader\r\n            FXMLLoader loader = new FXMLLoader();\r\n            // Path to the FXML File\r\n            String fxmlDocPath = \"src/main/resources/Forum.fxml\";\r\n            FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);\r\n\r\n\r\n            Pane root = (Pane) loader.load(fxmlStream);\r\n            ScrollPane scrPane = new ScrollPane();\r\n            scrPane.setContent(txtField);\r\n            scrPane.setLayoutY(20);\r\n            scrPane.setLayoutX(200);\r\n            scrPane.setFitToWidth(true);\r\n            scrPane.setPrefWidth(350);\r\n            scrPane.setPrefHeight(250);\r\n            Group root1 = new Group();\r\n\r\n\r\n            root.getChildren().addAll(buttonlist);\r\n            ObservableList list = root.getChildren();\r\n\r\n\r\n            //Setting the text object as a node to the group object\r\n            list.add(scrPane);\r\n\r\n\r\n            //Creating a scene object\r\n            Scene scene = new Scene(root);\r\n\r\n            newStageSec.setScene(scene);\r\n            pStage=newStageSec;\r\n            pStage.show();\r\n        }\r\n        catch(FileNotFoundException e) {\r\n            e.printStackTrace();\r\n        }\r\n        catch(IOException e)\r\n\r\n        {\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n    public void buton(){\r\n        JSONParser jsonParser = new JSONParser();\r\n        Integer i = new Integer(0);\r\n        try {\r\n\r\n            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(\"src/main/resources/Categories.json\"));\r\n            JSONArray jsonArray = (JSONArray) jsonObject.get(\"Category\");\r\n\r\n            Iterator iterator = jsonArray.iterator();\r\n            while (iterator.hasNext()) {\r\n                String aug=new String((String)iterator.next());\r\n                Button btn = new Button(aug);\r\n                btn.setId(aug);\r\n\r\n                btn.setLayoutY(i);\r\n                EventHandler<ActionEvent> click = new EventHandler<ActionEvent>() {\r\n                    public void handle(ActionEvent eve) {\r\n                        current_category = aug;\r\n                        deschidere(aug, buttonlist);\r\n                    }\r\n                };\r\n                btn.setOnAction(click);\r\n                i=i+30;\r\n                buttonlist.add(btn);\r\n\r\n\r\n            }\r\n        }\r\n\r\n        catch(FileNotFoundException e)\r\n\r\n        {\r\n            e.printStackTrace();\r\n        } catch(IOException e)\r\n\r\n        {\r\n            e.printStackTrace();\r\n        } catch(ParseException e)\r\n\r\n        {\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n    @Override\r\n    public void start(Stage primaryStage) throws Exception {\r\n        // Create the FXMLLoader\r\n        FXMLLoader loader = new FXMLLoader();\r\n        // Path to the FXML File\r\n        String fxmlDocPath = \"src/main/resources/TalkerGUI.fxml\";\r\n        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);\r\n\r\n        // Create the Pane and all Details\r\n        Pane root = (Pane) loader.load(fxmlStream);\r\n\r\n        // Create the Scene\r\n        Scene scene = new Scene(root);\r\n\r\n        primaryStage.setScene(scene);\r\n        primaryStage.show();\r\n\r\n    }\r\n    @FXML\r\n    private void clickViewCateg(ActionEvent event) throws IOException {\r\n\r\n\r\n        Text txtField1=new Text();\r\n        txtField1.setX(340);\r\n        txtField1.setY(20);\r\n\r\n                buton();\r\n                Stage newStage =new Stage();\r\n                Node source = (Node)  event.getSource();\r\n                Stage stage  = (Stage) source.getScene().getWindow();\r\n                stage.close();\r\n                // Create the FXMLLoader\r\n                FXMLLoader loader = new FXMLLoader();\r\n                // Path to the FXML File\r\n                String fxmlDocPath = \"src/main/resources/Forum.fxml\";\r\n                FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);\r\n\r\n\r\n                Pane root = (Pane) loader.load(fxmlStream);\r\n\r\n                    ScrollPane scrPane=new ScrollPane();\r\n                    scrPane.setContent(txtField1);\r\n                    scrPane.setLayoutY(20);\r\n                    scrPane.setLayoutX(200);\r\n                    scrPane.setFitToWidth(true);\r\n                    scrPane.setPrefWidth(350);\r\n                    scrPane.setPrefHeight(250);\r\n                    Group root1 = new Group();\r\n\r\n\r\n                    root.getChildren().addAll(buttonlist);\r\n                     ObservableList list = root.getChildren();\r\n\r\n\r\n        //Setting the text object as a node to the group object\r\n                     list.add(scrPane);\r\n\r\n\r\n\r\n\r\n                    //Creating a scene object\r\n                    Scene scene = new Scene(root);\r\n                    newStage.setScene(scene);\r\n                    pStage = newStage;\r\n                    pStage.show();\r\n                    return;\r\n\r\n\r\n\r\n    }\r\n    @FXML\r\n    private void clickPost(ActionEvent click)throws IOException {\r\n       if(!postTxt.getText().isEmpty())\r\n        {\r\n            JSONParser jsonParser = new JSONParser();\r\n            String prov = new String();\r\n            try {\r\n\r\n                JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(\"src/main/resources/Forum.json\"));\r\n                JSONArray jsonArray = (JSONArray) jsonObject.get(\"Database\");\r\n\r\n                if (!jsonArray.isEmpty()) {\r\n                    Iterator iterator = jsonArray.iterator();\r\n                    int verificator=0;\r\n                    while(iterator.hasNext()) {\r\n                        JSONObject categ=(JSONObject) iterator.next();\r\n                        if(categ.containsKey(current_category))\r\n                        {\r\n\r\n                            prov = categ.get(current_category) + \"\\n\" + postTxt.getText();\r\n\r\n                            categ.replace(current_category,prov);\r\n                           \r\n                            verificator=1;\r\n\r\n                        }\r\n\r\n\r\n\r\n\r\n                    }\r\n                    if(verificator==0)\r\n                    {\r\n                        prov =postTxt.getText();\r\n                        JSONObject aug=new JSONObject();\r\n                        aug.put(current_category,prov);\r\n                        jsonArray.add(aug);\r\n                    }\r\n                    JSONObject aug2 = new JSONObject();\r\n                    aug2.put(\"Database\", jsonArray);\r\n\r\n                    try {\r\n                        FileWriter file = new FileWriter(\"src/main/resources/Forum.json\");\r\n                        file.write(aug2.toJSONString());\r\n                        file.close();\r\n\r\n\r\n                    } catch (IOException e) {\r\n                        // TODO Auto-generated catch block\r\n                        e.printStackTrace();\r\n                    }\r\n\r\n                }\r\n               else {\r\n\r\n                    prov = postTxt.getText();\r\n                    JSONObject aug = new JSONObject();\r\n                    aug.put(current_category, prov);\r\n                    jsonArray.add(aug);\r\n                    JSONObject aug2 = new JSONObject();\r\n                    aug2.put(\"Database\", jsonArray);\r\n\r\n                    try {\r\n                        FileWriter file = new FileWriter(\"src/main/resources/Forum.json\");\r\n                        file.write(aug2.toJSONString());\r\n                        file.close();\r\n\r\n\r\n                    } catch (IOException e) {\r\n                        // TODO Auto-generated catch block\r\n                        e.printStackTrace();\r\n                    }\r\n                }\r\n\r\n\r\n            } catch (FileNotFoundException e) {\r\n                e.printStackTrace();\r\n            } catch (IOException e) {\r\n                e.printStackTrace();\r\n            } catch (ParseException e) {\r\n                e.printStackTrace();\r\n            }\r\n            buton();\r\n            deschidere(current_category, buttonlist);\r\n        }\r\n\r\n    }\r\n\r\n\r\n    }\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/User.java	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ src/main/java/User.java	(date 1592575951868)
+@@ -34,7 +34,8 @@
+ 
+ import static java.util.Collections.sort;
+ 
+-public class User extends  Application {
++public class User extends LoginController {
++
+ 
+ 
+     @FXML
+@@ -167,24 +168,7 @@
+             e.printStackTrace();
+         }
+     }
+-    @Override
+-    public void start(Stage primaryStage) throws Exception {
+-        // Create the FXMLLoader
+-        FXMLLoader loader = new FXMLLoader();
+-        // Path to the FXML File
+-        String fxmlDocPath = "src/main/resources/TalkerGUI.fxml";
+-        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+-
+-        // Create the Pane and all Details
+-        Pane root = (Pane) loader.load(fxmlStream);
+ 
+-        // Create the Scene
+-        Scene scene = new Scene(root);
+-
+-        primaryStage.setScene(scene);
+-        primaryStage.show();
+-
+-    }
+     @FXML
+     private void clickViewCateg(ActionEvent event) throws IOException {
+ 
+@@ -256,7 +240,7 @@
+                         if(categ.containsKey(current_category))
+                         {
+ 
+-                            prov = categ.get(current_category) + "\n" + postTxt.getText();
++                            prov = categ.get(current_category) + "\n" +user+": "+postTxt.getText();
+ 
+                             categ.replace(current_category,prov);
+                            
+@@ -270,7 +254,7 @@
+                     }
+                     if(verificator==0)
+                     {
+-                        prov =postTxt.getText();
++                        prov =user+": "+postTxt.getText();
+                         JSONObject aug=new JSONObject();
+                         aug.put(current_category,prov);
+                         jsonArray.add(aug);
+@@ -324,6 +308,10 @@
+         }
+ 
+     }
++    @FXML
++    private void clickEdit(ActionEvent event) throws IOException {
++        opening("EditProfile",event);
++    }
+ 
+ 
+     }
+Index: target/classes/Forum.json
+===================================================================
+--- target/classes/Forum.json	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/Forum.json	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,1 +0,0 @@
+-{"Database":[{"dorabora":"asdasdasdas\ndasdasdasd\ndasdasdas"},{"s1":"asdas"}]}
+\ No newline at end of file
+Index: target/classes/keys.json
+===================================================================
+--- target/classes/keys.json	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/keys.json	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,1 +0,0 @@
+-{"key":[ "oQqDD+3y/TVe1oe3VPFDpA==","YgsK6MInazemQxvTCRb4IA=="]}
+\ No newline at end of file
+Index: target/classes/ChangeIn.fxml
+===================================================================
+--- target/classes/ChangeIn.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/ChangeIn.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,11 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
+-
+-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin">
+-   <children>
+-       <TextField fx:id="changeInTxt" layoutX="210.0" layoutY="175.0" prefHeight="25.0" prefWidth="180.0" promptText="Change in" />
+-      <Button fx:id="cahngeInBtn" layoutX="274.0" layoutY="266.0" mnemonicParsing="false" onAction="#clickChangeIn" text="Change In" />
+-   </children>
+-</AnchorPane>
+Index: target/classes/ManagesTalkers.fxml
+===================================================================
+--- target/classes/ManagesTalkers.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/ManagesTalkers.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,16 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-
+-<?import javafx.scene.control.Button?>
+-<?import javafx.scene.control.Label?>
+-<?import javafx.scene.control.TextField?>
+-<?import javafx.scene.layout.AnchorPane?>
+-
+-
+-<AnchorPane prefHeight="300.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ManageTalkersController">
+-   <children>
+-      <TextField fx:id="userInput" layoutX="136.0" layoutY="100.0" />
+-      <Button fx:id="blockUserButton" layoutX="110.0" layoutY="181.0" mnemonicParsing="false" onAction="#blockUser" text="Button" />
+-      <Button fx:id="unblockUserButton" layoutX="259.0" layoutY="181.0" mnemonicParsing="false" onAction="#unblockUser" text="Button" />
+-      <Label layoutX="169.0" layoutY="37.0" text="Manage Talkers" />
+-   </children>
+-</AnchorPane>
+Index: target/classes/TalkerGUI.fxml
+===================================================================
+--- target/classes/TalkerGUI.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/TalkerGUI.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,12 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
+-
+-
+-<AnchorPane fx:id="viewCat"  prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="User">
+-   <children>
+-      <Button fx:id="viewCateg" layoutX="152.0" layoutY="262.0" mnemonicParsing="false" onAction="#clickViewCateg" text="View Categories" />
+-      <Button layoutX="384.0" layoutY="262.0" mnemonicParsing="false" text="Edit Profile" />
+-   </children>
+-</AnchorPane>
+Index: target/classes/EditProfile.fxml
+===================================================================
+--- target/classes/EditProfile.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/EditProfile.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,18 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-
+-<?import javafx.scene.control.Button?>
+-<?import javafx.scene.control.Label?>
+-<?import javafx.scene.control.PasswordField?>
+-<?import javafx.scene.control.TextField?>
+-<?import javafx.scene.layout.AnchorPane?>
+-
+-
+-<AnchorPane prefHeight="400.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EditProfile">
+-   <children>
+-      <TextField fx:id="newNameField" layoutX="70.0" layoutY="121.0" promptText=" new name" />
+-      <TextField fx:id="newPhoneField" layoutX="70.0" layoutY="167.0" prefHeight="25.0" prefWidth="149.0" promptText="new phone number" />
+-      <PasswordField fx:id="newPasswordField" layoutX="70.0" layoutY="216.0" promptText="new password" />
+-      <Label layoutX="116.0" layoutY="44.0" text="Edit Profile" />
+-      <Button fx:id="saveButton" layoutX="118.0" layoutY="298.0" mnemonicParsing="false" onAction="#clickSave" text="Save" />
+-   </children>
+-</AnchorPane>
+Index: target/maven-archiver/pom.properties
+===================================================================
+--- target/maven-archiver/pom.properties	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/maven-archiver/pom.properties	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,5 +0,0 @@
+-#Generated by Maven
+-#Thu May 28 18:31:32 EEST 2020
+-version=0.1.0-SNAPSHOT
+-groupId=com.baeldung
+-artifactId=core-java
+Index: target/classes/Categories.json
+===================================================================
+--- target/classes/Categories.json	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/Categories.json	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,1 +0,0 @@
+-{"Category":["dorabora","s1","s4"]}
+\ No newline at end of file
+Index: target/classes/Forum.fxml
+===================================================================
+--- target/classes/Forum.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/Forum.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,11 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
+-
+-<AnchorPane accessibleRole="TEXT_FIELD" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="User">
+-   <children>
+-      <TextField fx:id="postTxt" layoutX="323.0" layoutY="326.0" prefHeight="25.0" prefWidth="207.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="323.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="326.0" />
+-      <Button fx:id="postBtn" layoutX="530.0" layoutY="326.0" mnemonicParsing="false" onAction="#clickPost" text="Post" />
+-   </children>
+-</AnchorPane>
+Index: target/classes/db.json
+===================================================================
+--- target/classes/db.json	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/db.json	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,1 +0,0 @@
+-{"DataBase":[{"User":"madalinminea","Phone":"1234567890","Rol":"Talker","Full name":"Madalin Minea","Password":"TyTn3ARW9ecPVEufrONKYg=="},{"User":"mihaiandrei","Phone":"1234567890","Rol":"Talker","Full name":"mihai andrei","Password":"TyTn3ARW9ecPVEufrONKYg=="},{"User":"andrei","Phone":"1234567890","Rol":"Admin","Full name":"popescu","Password":"JBb6fm\/HKcJPCYr\/dd979w=="},{"User":"sadsadsadasdsadsa","Phone":"1234567890","Rol":"Admin","Full name":"dsadasdsadasd","Password":"RC8e5hDpZedFpNoMrpWtDQ=="},{"User":"sadasdasdas","Phone":"1231231233","Rol":"Admin","Full name":"dasdasdas","Password":"4DHhXpKlB6lrW\/rhR+LgRg=="},{"User":"awdadwada","Phone":"1231231233","Rol":"Admin","Full name":"asdadasdas","Password":"A\/KfqGIqUGSj+afTrazIJQ=="},{"User":"asdasdsadsa","Phone":"1231231123","Rol":"Admin","Full name":"asdsadasdas","Password":"jWIsDM2AmXNrPLdhkyqc5A=="},{"User":"asdsadasdas","Phone":"1231231233","Rol":"Talker","Full name":"asdasdasd","Password":"bQoKaZgcydSxCThB0RXApA=="},{"User":"assdasdasdsa","Phone":"1231231233","Rol":"Admin","Full name":"adsadasdasdsa","Password":"JROkaoLlIPs1SdLZ0XPyLw=="},{"User":"dasdasdasd","Phone":"1231231233","Rol":"Admin","Full name":"asdasdasdas","Password":"22FxBhXcL54G1fXeM60ZNg=="},{"Status":"Unblocked","User":"andreimihai","Phone":"9876543210","Rol":"Talker","Full name":"MAIHIANDINSAJ","Password":"IT9yzp\/ox7jdwgw8vl15Wg=="}]}
+\ No newline at end of file
+Index: target/classes/RegisterTalker.fxml
+===================================================================
+--- target/classes/RegisterTalker.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/RegisterTalker.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,21 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
+-<?import javafx.scene.text.*?>
+-
+-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="250.0" style="-fx-background-color: #2EA1BD;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegisterTalkerController">
+-    <children>
+-        <Label layoutX="37.0" layoutY="26.0" text="Register as Talker">
+-            <font>
+-                <Font name="Leelawadee" size="22.0" />
+-            </font>
+-        </Label>
+-        <TextField id="nameText" fx:id="nameText" layoutX="51.0" layoutY="83.0" promptText="full name" style="-fx-background-color: #20798F;" />
+-        <TextField id="userText" fx:id="userText" layoutX="51.0" layoutY="125.0" promptText="username" style="-fx-background-color: #20798F;" />
+-        <TextField id="phoneText" fx:id="phoneText" layoutX="51.0" layoutY="163.0" promptText="phone number" style="-fx-background-color: #20798F;" />
+-        <Button id="registeTalkerButton" contentDisplay="TOP" layoutX="76.0" layoutY="264.0" mnemonicParsing="false" onAction="#clickRegisterTalker" prefHeight="25.0" prefWidth="93.0" text="Register" />
+-        <PasswordField id="passText" fx:id="passText" layoutX="51.0" layoutY="202.0" promptText="password" style="-fx-background-color: #20798F;" />
+-      <Button fx:id="backButton" layoutX="90.0" layoutY="303.0" mnemonicParsing="false" onAction="#backButtonHandler" prefHeight="25.0" prefWidth="63.0" text="Back" />
+-    </children>
+-</Pane>
+Index: target/classes/RegisterAdmin.fxml
+===================================================================
+--- target/classes/RegisterAdmin.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/RegisterAdmin.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,23 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
+-<?import javafx.scene.text.*?>
+-
+-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="398.0" prefWidth="250.0" style="-fx-background-color: #2EA1BD;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegisterAdminController">
+-    <children>
+-        <Label layoutX="37.0" layoutY="26.0" text="Register as Admin">
+-            <font>
+-                <Font name="Leelawadee" size="22.0" />
+-            </font>
+-        </Label>
+-        <TextField id="nameText" fx:id="nameText" layoutX="51.0" layoutY="83.0" promptText="full name" style="-fx-background-color: #20798F;" />
+-        <TextField id="userText" fx:id="userText" layoutX="51.0" layoutY="125.0" promptText="username" style="-fx-background-color: #20798F;" />
+-        <TextField id="phoneText" fx:id="phoneText" layoutX="51.0" layoutY="163.0" promptText="phone number" style="-fx-background-color: #20798F;" />
+-        <PasswordField id="passText" fx:id="passText" layoutX="51.0" layoutY="202.0" promptText="password" style="-fx-background-color: #20798F;" />
+-        <TextField id="comfText" fx:id="comfText" layoutX="50.0" layoutY="245.0" promptText="comfirmation key" style="-fx-background-color: #20798F;" />
+-        <Button id="registeAdminButton" contentDisplay="TOP" layoutX="78.0" layoutY="311.0" mnemonicParsing="false" onAction="#clickRegisterAdmin" prefHeight="25.0" prefWidth="93.0" text="Register" />
+-      <Button layoutX="90.0" layoutY="351.0" mnemonicParsing="false" onAction="#backButtonHandler" prefHeight="25.0" prefWidth="70.0" text="Back" />
+-
+-    </children>
+-</Pane>
+Index: target/classes/Admin.fxml
+===================================================================
+--- target/classes/Admin.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/Admin.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,17 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
+-
+-
+-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin">
+-   <children>
+-      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+-         <children>
+-            <Button layoutX="41.0" layoutY="88.0" mnemonicParsing="false" text="Manage Users" />
+-             <Button fx:id="manage" layoutX="153.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickManageCat" text="Manage Categories" />
+-
+-         </children>
+-      </AnchorPane>
+-   </children>
+-</AnchorPane>
+Index: target/classes/ManageCategories.fxml
+===================================================================
+--- target/classes/ManageCategories.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/ManageCategories.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,16 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
+-
+-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin">
+-   <children>
+-      <Pane prefHeight="400.0" prefWidth="600.0">
+-         <children>
+-             <Button fx:id="AddButton" layoutX="165.0" layoutY="227.0" mnemonicParsing="false" onAction="#clickAdd" text="Add" />
+-             <Button fx:id="DeleteButton" layoutX="274.0" layoutY="227.0" mnemonicParsing="false" onAction="#clickDelete" text="Delete" />
+-             <Button fx:id="ChangeButton" layoutX="382.0" layoutY="227.0" mnemonicParsing="false" onAction="#clickChange" text="Change" />
+-             <TextField fx:id="category" layoutX="184.0" layoutY="148.0" />
+-         </children></Pane>
+-   </children>
+-</AnchorPane>
+Index: target/classes/LoginGUI.fxml
+===================================================================
+--- target/classes/LoginGUI.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ target/classes/LoginGUI.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
+@@ -1,35 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
+-<?import javafx.scene.text.*?>
+-
+-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="550.0" style="-fx-background-color: #2EA1BD;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+-   <children>
+-      <AnchorPane layoutX="275.0" layoutY="15.0" prefHeight="320.0" prefWidth="250.0" style="-fx-background-color: #20798F;">
+-         <children>
+-            <Label layoutX="98.0" layoutY="26.0" text="Login">
+-               <font>
+-                  <Font name="Leelawadee" size="22.0" />
+-               </font>
+-            </Label>
+-            <Button fx:id="loginButton" layoutX="79.0" layoutY="230.0" mnemonicParsing="false" onAction="#clickLoginButton" prefHeight="25.0" prefWidth="95.0" text="Log in" />
+-            <PasswordField fx:id="passwordField" layoutX="36.0" layoutY="148.0" prefHeight="25.0" prefWidth="180.0" promptText="password" />
+-            <TextField fx:id="usernameField" layoutX="36.0" layoutY="102.0" prefHeight="25.0" prefWidth="180.0" promptText="username" />
+-         </children></AnchorPane>
+-      <Label layoutX="51.0" layoutY="57.0" text="Welcome to">
+-         <font>
+-            <Font name="Leelawadee" size="15.0" />
+-         </font>
+-      </Label>
+-      <Label layoutX="51.0" layoutY="76.0" />
+-      <Label layoutX="51.0" layoutY="76.0" text="kouvénta">
+-         <font>
+-            <Font name="Leelawadee" size="29.0" />
+-         </font>
+-      </Label>
+-      <Label layoutX="51.0" layoutY="184.0" text="Don't have an account?" />
+-      <Button fx:id="loginRegisterButton" layoutX="51.0" layoutY="208.0" mnemonicParsing="false" onAction="#clickLoginRegisterButton" text="Register" />
+-      <Button fx:id="loginRegisterAdminButton" layoutX="51.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickLoginRegisterAdminButton" text="Register as Admin" />
+-   </children>
+-</Pane>

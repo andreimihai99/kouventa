@@ -1,0 +1,380 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/EditProfileController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/EditProfileController.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/LoginController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/LoginController.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ManageTalkersController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ManageTalkersController.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/EditProfile.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/EditProfile.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/ManagesTalkers.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/ManagesTalkers.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/db.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/db.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/HomePage.fxml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/LoginController.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/LoginController.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/Main.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/Main.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/RegisterAdminController.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/RegisterAdminController.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/RegisterTalkerController.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/RegisterTalkerController.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/db.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/db.json\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaFXApplication\" />\r\n        <option value=\"FxmlFile\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <favorite-branches>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"LOCAL\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"feature_AF-9\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </favorite-branches>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Feature_AF-11\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1b4uNgiceq1UUDRTKs2sUuoWvmf\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"restartRequiresConfirmation\" value=\"false\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"editor.preferences.tabs\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\User\\Desktop\\Faculta\\Sem2\\FIS\\Proiect\\src\\main\\resources\" />\r\n      <recent name=\"C:\\Users\\MDM\\Desktop\\kouventa-master\\src\\main\" />\r\n      <recent name=\"C:\\Users\\MDM\\Desktop\\kouventa-master\" />\r\n      <recent name=\"C:\\Users\\MDM\\Desktop\\kouventa-master\\src\\main\\java\" />\r\n      <recent name=\"C:\\Users\\MDM\\Desktop\\kouventa-master\\src\\main\\java\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.ManageTalkersController\">\r\n    <configuration name=\"Admin\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Admin\" />\r\n      <module name=\"kouventa-master\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"EditProfileController\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"EditProfileController\" />\r\n      <module name=\"AplicatieFIS\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LoginController\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"LoginController\" />\r\n      <module name=\"AplicatieFIS\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" editBeforeRun=\"true\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"AplicatieFIS\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ManageTalkersController\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ManageTalkersController\" />\r\n      <module name=\"AplicatieFIS\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.ManageTalkersController\" />\r\n        <item itemvalue=\"Application.EditProfileController\" />\r\n        <item itemvalue=\"Application.LoginController\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.Admin\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1587903648706</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1587903648706</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"467\" y=\"45\" key=\"#Main\" timestamp=\"1592314249560\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"467\" y=\"45\" key=\"#Main/0.0.1366.728@0.0.1366.728\" timestamp=\"1592314249560\" />\r\n    <state x=\"657\" y=\"139\" key=\"#Main/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1592111988545\" />\r\n    <state x=\"552\" y=\"160\" key=\"#Plugins\" timestamp=\"1590680090553\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"552\" y=\"160\" key=\"#Plugins/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1590680090553\" />\r\n    <state x=\"284\" y=\"16\" key=\"#Project_Structure\" timestamp=\"1589110373798\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"284\" y=\"16\" key=\"#Project_Structure/0.0.1366.728@0.0.1366.728\" timestamp=\"1589110373798\" />\r\n    <state x=\"400\" y=\"22\" key=\"#RegisterTalker\" timestamp=\"1590320611329\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"400\" y=\"22\" key=\"#RegisterTalker/0.0.1366.728@0.0.1366.728\" timestamp=\"1590320611329\" />\r\n    <state x=\"686\" y=\"114\" key=\"#com.intellij.ide.util.MemberChooser\" timestamp=\"1592168871619\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"488\" y=\"80\" key=\"#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728\" timestamp=\"1588884709950\" />\r\n    <state x=\"686\" y=\"114\" key=\"#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1592168871619\" />\r\n    <state x=\"743\" y=\"410\" key=\"#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes\" timestamp=\"1589642446811\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"743\" y=\"410\" key=\"#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1589642446811\" />\r\n    <state x=\"413\" y=\"111\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog\" timestamp=\"1588883998650\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"413\" y=\"111\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728\" timestamp=\"1588883998650\" />\r\n    <state x=\"651\" y=\"150\" key=\"FileChooserDialogImpl\" timestamp=\"1589290967094\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"463\" y=\"105\" key=\"FileChooserDialogImpl/0.0.1366.728@0.0.1366.728\" timestamp=\"1588780359342\" />\r\n    <state x=\"651\" y=\"150\" key=\"FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1589290967094\" />\r\n    <state width=\"1323\" height=\"127\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1592511065786\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1323\" height=\"127\" key=\"GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728\" timestamp=\"1592511065786\" />\r\n    <state width=\"938\" height=\"282\" key=\"GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1592310515581\" />\r\n    <state width=\"1323\" height=\"127\" key=\"GridCell.Tab.0.center\" timestamp=\"1592511065785\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1323\" height=\"127\" key=\"GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728\" timestamp=\"1592511065785\" />\r\n    <state width=\"938\" height=\"282\" key=\"GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1592310515580\" />\r\n    <state width=\"1323\" height=\"127\" key=\"GridCell.Tab.0.left\" timestamp=\"1592511065785\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1323\" height=\"127\" key=\"GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728\" timestamp=\"1592511065785\" />\r\n    <state width=\"938\" height=\"282\" key=\"GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1592310515580\" />\r\n    <state width=\"1323\" height=\"127\" key=\"GridCell.Tab.0.right\" timestamp=\"1592511065785\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1323\" height=\"127\" key=\"GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728\" timestamp=\"1592511065785\" />\r\n    <state width=\"938\" height=\"282\" key=\"GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1592310515581\" />\r\n    <state width=\"938\" height=\"348\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1592250649248\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1323\" height=\"59\" key=\"GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728\" timestamp=\"1588886414104\" />\r\n    <state width=\"938\" height=\"348\" key=\"GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1592250649248\" />\r\n    <state width=\"938\" height=\"348\" key=\"GridCell.Tab.1.center\" timestamp=\"1592250649248\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1323\" height=\"59\" key=\"GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728\" timestamp=\"1588886414103\" />\r\n    <state width=\"938\" height=\"348\" key=\"GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1592250649248\" />\r\n    <state width=\"938\" height=\"348\" key=\"GridCell.Tab.1.left\" timestamp=\"1592250649248\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1323\" height=\"59\" key=\"GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728\" timestamp=\"1588886414103\" />\r\n    <state width=\"938\" height=\"348\" key=\"GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1592250649248\" />\r\n    <state width=\"938\" height=\"348\" key=\"GridCell.Tab.1.right\" timestamp=\"1592250649248\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1323\" height=\"59\" key=\"GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728\" timestamp=\"1588886414103\" />\r\n    <state width=\"938\" height=\"348\" key=\"GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1592250649248\" />\r\n    <state x=\"299\" y=\"27\" key=\"Maven.ArtifactSearchDialog\" timestamp=\"1590141093193\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"213\" y=\"19\" key=\"Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728\" timestamp=\"1588502983100\" />\r\n    <state x=\"299\" y=\"27\" key=\"Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1590141093193\" />\r\n    <state x=\"184\" y=\"85\" key=\"MergeDialog\" timestamp=\"1590401519705\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"184\" y=\"85\" key=\"MergeDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1590401519705\" />\r\n    <state x=\"848\" y=\"387\" width=\"491\" height=\"265\" key=\"MultipleFileMergeDialog\" timestamp=\"1590400245233\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"848\" y=\"387\" width=\"491\" height=\"265\" key=\"MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1590400245233\" />\r\n    <state x=\"444\" y=\"86\" key=\"RollbackChangesDialog\" timestamp=\"1589108783219\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"444\" y=\"86\" key=\"RollbackChangesDialog/0.0.1366.728@0.0.1366.728\" timestamp=\"1589108783219\" />\r\n    <state x=\"517\" y=\"19\" key=\"SettingsEditor\" timestamp=\"1592230872975\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"368\" y=\"13\" key=\"SettingsEditor/0.0.1366.728@0.0.1366.728\" timestamp=\"1588878356056\" />\r\n    <state x=\"517\" y=\"19\" key=\"SettingsEditor/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1592230872975\" />\r\n    <state x=\"393\" y=\"176\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1592511175097\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"393\" y=\"176\" key=\"Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728\" timestamp=\"1592511175097\" />\r\n    <state x=\"552\" y=\"252\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1592147046866\" />\r\n    <state x=\"379\" y=\"188\" key=\"com.intellij.ide.util.TipDialog\" timestamp=\"1592508535107\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"379\" y=\"188\" key=\"com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728\" timestamp=\"1592508535107\" />\r\n    <state x=\"666\" y=\"119\" width=\"587\" height=\"801\" key=\"find.popup\" timestamp=\"1589292917265\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"666\" y=\"119\" width=\"587\" height=\"801\" key=\"find.popup/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1589292917265\" />\r\n    <state x=\"739\" y=\"232\" key=\"git4idea.branch.GitSmartOperationDialog\" timestamp=\"1590401516857\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"739\" y=\"232\" key=\"git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1590401516857\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/AplicatieFIS$Login.ic\" NAME=\"Login Coverage Results\" MODIFIED=\"1588882759896\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ .idea/workspace.xml	(date 1592658944940)
+@@ -3,19 +3,58 @@
+   <component name="ChangeListManager">
+     <list default="true" id="dfd6a0ef-f7a1-4ac9-8cf2-9bf9efa2d3ab" name="Default Changelist" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Admin.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/EditProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditProfileController.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/ManageTalkersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManageTalkersController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Admin.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/Categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Categories.json" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/resources/EditProfile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EditProfile.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/ManagesTalkers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ManagesTalkers.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/Forum.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forum.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/LoginGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/LoginGUI.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/TalkerGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TalkerGUI.fxml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/resources/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/HomePage.fxml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginController.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegisterAdminController.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterTalkerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegisterTalkerController.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/AplicatieFIS-1.0-SNAPSHOT.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Admin.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Admin.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Categories.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/ChangeIn.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/EditProfile.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/EditProfileController.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Forum.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Forum.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/LoginController.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/LoginGUI.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/ManageCategories.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/ManageTalkersController.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/ManagesTalkers.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/RegisterAdmin.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/RegisterAdminController.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/RegisterTalker.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/RegisterTalkerController.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/TalkerGUI.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/User$1.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/User.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/db.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/keys.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/core-java-0.1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/core-java-0.1.0-SNAPSHOT.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/jfx/app/core-java-0.1.0-SNAPSHOT-jfx.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/hamcrest-core-1.1.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/json-simple-1.1.1.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/junit-4.10.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/slf4j-api-1.7.30.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/slf4j-simple-1.7.30.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/original-AplicatieFIS-1.0-SNAPSHOT.jar" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -80,14 +119,7 @@
+       <recent name="C:\Users\MDM\Desktop\kouventa-master\src\main\java\resources" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.ManageTalkersController">
+-    <configuration name="Admin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Admin" />
+-      <module name="kouventa-master" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
++  <component name="RunManager" selected="Application.LoginController">
+     <configuration name="EditProfileController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="EditProfileController" />
+       <module name="AplicatieFIS" />
+@@ -104,7 +136,7 @@
+     </configuration>
+     <configuration name="Main" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="Main" />
+-      <module name="AplicatieFIS" />
++      <module name="kouventa-master" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -116,13 +148,20 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="User" />
++      <module name="kouventa-master" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.ManageTalkersController" />
+-        <item itemvalue="Application.EditProfileController" />
+         <item itemvalue="Application.LoginController" />
+         <item itemvalue="Application.Main" />
+-        <item itemvalue="Application.Admin" />
++        <item itemvalue="Application.User" />
++        <item itemvalue="Application.EditProfileController" />
++        <item itemvalue="Application.ManageTalkersController" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -140,11 +179,19 @@
+     <servers />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="467" y="45" key="#Main" timestamp="1592314249560">
+-      <screen x="0" y="0" width="1366" height="728" />
++    <state x="657" y="139" key="#EditProfileController" timestamp="1592574484570">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="657" y="139" key="#EditProfileController/0.0.1920.1040@0.0.1920.1040" timestamp="1592574484570" />
++    <state x="657" y="139" key="#LoginController" timestamp="1592576294731">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="657" y="139" key="#LoginController/0.0.1920.1040@0.0.1920.1040" timestamp="1592576294731" />
++    <state x="657" y="139" key="#Main" timestamp="1592576108413">
++      <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state x="467" y="45" key="#Main/0.0.1366.728@0.0.1366.728" timestamp="1592314249560" />
+-    <state x="657" y="139" key="#Main/0.0.1920.1040@0.0.1920.1040" timestamp="1592111988545" />
++    <state x="657" y="139" key="#Main/0.0.1920.1040@0.0.1920.1040" timestamp="1592576108413" />
+     <state x="552" y="160" key="#Plugins" timestamp="1590680090553">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+@@ -175,26 +222,26 @@
+     </state>
+     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588780359342" />
+     <state x="651" y="150" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589290967094" />
+-    <state width="1323" height="127" key="GridCell.Tab.0.bottom" timestamp="1592511065786">
+-      <screen x="0" y="0" width="1366" height="728" />
++    <state width="1311" height="282" key="GridCell.Tab.0.bottom" timestamp="1592658944816">
++      <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state width="1323" height="127" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592511065786" />
+-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592310515581" />
+-    <state width="1323" height="127" key="GridCell.Tab.0.center" timestamp="1592511065785">
+-      <screen x="0" y="0" width="1366" height="728" />
++    <state width="1311" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592658944816" />
++    <state width="1311" height="282" key="GridCell.Tab.0.center" timestamp="1592658944816">
++      <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state width="1323" height="127" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592511065785" />
+-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592310515580" />
+-    <state width="1323" height="127" key="GridCell.Tab.0.left" timestamp="1592511065785">
+-      <screen x="0" y="0" width="1366" height="728" />
++    <state width="1311" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592658944816" />
++    <state width="1311" height="282" key="GridCell.Tab.0.left" timestamp="1592658944816">
++      <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state width="1323" height="127" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592511065785" />
+-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592310515580" />
+-    <state width="1323" height="127" key="GridCell.Tab.0.right" timestamp="1592511065785">
+-      <screen x="0" y="0" width="1366" height="728" />
++    <state width="1311" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592658944816" />
++    <state width="1311" height="282" key="GridCell.Tab.0.right" timestamp="1592658944816">
++      <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state width="1323" height="127" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592511065785" />
+-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592310515581" />
++    <state width="1311" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592658944816" />
+     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1592250649248">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+Index: src/main/java/Admin.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\nimport java.io.*;\r\nimport java.util.Iterator;\r\n\r\nimport javafx.application.Application;\r\nimport javafx.event.ActionEvent;\r\nimport javafx.fxml.FXML;\r\nimport javafx.fxml.FXMLLoader;\r\nimport javafx.scene.Node;\r\nimport javafx.scene.Scene;\r\nimport javafx.scene.control.TextField;\r\n\r\nimport javafx.scene.layout.Pane;\r\nimport javafx.stage.Stage;\r\nimport org.json.simple.JSONArray;\r\nimport org.json.simple.JSONObject;\r\nimport org.json.simple.parser.JSONParser;\r\nimport org.json.simple.parser.ParseException;\r\n\r\nimport static java.util.Collections.sort;\r\n\r\npublic class Admin extends Application {\r\n\r\n    @FXML\r\n    private TextField category;\r\n    @FXML\r\n    private TextField changeInTxt;\r\n    static String change = new String();\r\n\r\n    @Override\r\n    public void start(Stage primaryStage) throws Exception {\r\n        // Create the FXMLLoader\r\n        FXMLLoader loader = new FXMLLoader();\r\n        // Path to the FXML File\r\n        String fxmlDocPath = \"src/main/resources/Admin.fxml\";\r\n        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);\r\n\r\n        // Create the Pane and all Details\r\n        Pane root = (Pane) loader.load(fxmlStream);\r\n\r\n        // Create the Scene\r\n        Scene scene = new Scene(root);\r\n        primaryStage.setScene(scene);\r\n        primaryStage.show();\r\n\r\n    }\r\n\r\n\r\n    @FXML\r\n    private void clickManageCat(ActionEvent e) throws IOException {\r\n        Stage newStage = new Stage();\r\n        Node source = (Node) e.getSource();\r\n        Stage stage = (Stage) source.getScene().getWindow();\r\n        stage.close();\r\n        // Create the FXMLLoader\r\n        FXMLLoader loader = new FXMLLoader();\r\n        // Path to the FXML File\r\n        String fxmlDocPath = \"src/main/resources/ManageCategories.fxml\";\r\n        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);\r\n\r\n        // Create the Pane and all Details\r\n        Pane root = (Pane) loader.load(new FileInputStream(fxmlDocPath));\r\n\r\n        // Create the Scene\r\n\r\n        Scene scene = new Scene(root);\r\n        newStage.setScene(scene);\r\n\r\n        newStage.show();\r\n    }\r\n\r\n    @FXML\r\n    private void clickAdd(ActionEvent event) throws IOException {\r\n\r\n        JSONObject obj = new JSONObject();\r\n        JSONObject objfin = new JSONObject();\r\n\r\n        JSONParser jsonParser = new JSONParser();\r\n        try {\r\n\r\n            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(\"src/main/resources/Categories.json\"));\r\n            JSONArray jsonArray = (JSONArray) jsonObject.get(\"Category\");\r\n\r\n            if (jsonArray.contains(category.getText())) {\r\n                System.out.println(\"Deja exista categoria\");\r\n            } else {\r\n                jsonArray.add(category.getText());\r\n                sort(jsonArray);\r\n\r\n                try {\r\n                    FileWriter file = new FileWriter(\"src/main/resources/Categories.json\");\r\n                    objfin.put(\"Category\", jsonArray);\r\n                    file.write(objfin.toJSONString());\r\n                    file.close();\r\n\r\n                } catch (IOException e) {\r\n                    // TODO Auto-generated catch block\r\n                    e.printStackTrace();\r\n                }\r\n\r\n            }\r\n        } catch (FileNotFoundException e) {\r\n            e.printStackTrace();\r\n        } catch (IOException e) {\r\n            e.printStackTrace();\r\n        } catch (ParseException e) {\r\n            e.printStackTrace();\r\n        }\r\n\r\n    }\r\n\r\n    @FXML\r\n    private void clickDelete(ActionEvent event) throws IOException {\r\n        JSONParser jsonParser = new JSONParser();\r\n        try {\r\n\r\n            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(\"src/main/resources/Categories.json\"));\r\n            JSONArray jsonArray = (JSONArray) jsonObject.get(\"Category\");\r\n\r\n            if (jsonArray.contains(category.getText())) {\r\n                jsonArray.remove(category.getText());\r\n\r\n                JSONObject objfin = new JSONObject();\r\n                FileWriter file = new FileWriter(\"src/main/resources/Categories.json\");\r\n                objfin.put(\"Category\", jsonArray);\r\n                file.write(objfin.toJSONString());\r\n                file.close();\r\n\r\n            } else {\r\n\r\n                System.out.println(\"Nu exista categoria\");\r\n            }\r\n        } catch (FileNotFoundException e) {\r\n            e.printStackTrace();\r\n        } catch (IOException e) {\r\n            e.printStackTrace();\r\n        } catch (ParseException e) {\r\n            e.printStackTrace();\r\n        }\r\n        JSONParser jsonParser1 = new JSONParser();\r\n        JSONObject categ=new JSONObject();\r\n        try {\r\n\r\n            JSONObject jsonObject = (JSONObject) jsonParser1.parse(new FileReader(\"src/main/resources/Forum.json\"));\r\n            JSONArray jsonArray = (JSONArray) jsonObject.get(\"Database\");\r\n\r\n            if (!jsonArray.isEmpty()) {\r\n                Iterator iterator = jsonArray.iterator();\r\n                int ver=0;\r\n                while (iterator.hasNext()) {\r\n                    categ = (JSONObject) iterator.next();\r\n                    if (categ.containsKey(category.getText())) {\r\n                        ver=1;\r\n                        break;\r\n                    }\r\n\r\n                }\r\n                if(ver==1) {\r\n                    jsonArray.remove(categ);\r\n                    JSONObject aug2 = new JSONObject();\r\n                    aug2.put(\"Database\", jsonArray);\r\n\r\n                    try {\r\n                        FileWriter file = new FileWriter(\"src/main/resources/Forum.json\");\r\n                        file.write(aug2.toJSONString());\r\n                        file.close();\r\n\r\n\r\n                    } catch (IOException e) {\r\n                        // TODO Auto-generated catch block\r\n                        e.printStackTrace();\r\n                    }\r\n                }\r\n            }\r\n        } catch (ParseException e) {\r\n            e.printStackTrace();\r\n        }\r\n\r\n    }\r\n\r\n    @FXML\r\n    private void clickChange(ActionEvent event) throws IOException {\r\n        JSONParser jsonParser = new JSONParser();\r\n\r\n        try {\r\n\r\n            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(\"src/main/resources/Categories.json\"));\r\n            JSONArray jsonArray = (JSONArray) jsonObject.get(\"Category\");\r\n\r\n            if (jsonArray.contains(category.getText())) {\r\n                change = category.getText();\r\n                Stage newStage = new Stage();\r\n                Node source = (Node) event.getSource();\r\n                Stage stage = (Stage) source.getScene().getWindow();\r\n\r\n                // Create the FXMLLoader\r\n                FXMLLoader loader = new FXMLLoader();\r\n                // Path to the FXML File\r\n                String fxmlDocPath = \"src/main/resources/ChangeIn.fxml\";\r\n                FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);\r\n\r\n                // Create the Pane and all Details\r\n                Pane root = (Pane) loader.load(new FileInputStream(fxmlDocPath));\r\n\r\n                // Create the Scene\r\n\r\n                Scene scene = new Scene(root);\r\n                newStage.setScene(scene);\r\n\r\n                newStage.show();\r\n            } else {\r\n                System.out.println(\"Nu exista categoria\");\r\n            }\r\n        } catch (FileNotFoundException e) {\r\n            e.printStackTrace();\r\n        } catch (IOException e) {\r\n            e.printStackTrace();\r\n        } catch (ParseException e) {\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n\r\n    @FXML\r\n    private void clickChangeIn(ActionEvent event) throws IOException {\r\n        JSONParser jsonParser = new JSONParser();\r\n        try {\r\n\r\n            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(\"src/main/resources/Categories.json\"));\r\n            JSONArray jsonArray = (JSONArray) jsonObject.get(\"Category\");\r\n\r\n            if (jsonArray.contains(changeInTxt.getText())) {\r\n                System.out.println(\"Exista deja\");\r\n            } else {\r\n                jsonArray.remove(change);\r\n\r\n                jsonArray.add(changeInTxt.getText());\r\n                sort(jsonArray);\r\n                JSONObject objfin = new JSONObject();\r\n                FileWriter file = new FileWriter(\"src/main/resources/Categories.json\");\r\n                objfin.put(\"Category\", jsonArray);\r\n                file.write(objfin.toJSONString());\r\n                file.close();\r\n                Node source = (Node) event.getSource();\r\n                Stage stage = (Stage) source.getScene().getWindow();\r\n                stage.close();\r\n\r\n            }\r\n        } catch (FileNotFoundException e) {\r\n            e.printStackTrace();\r\n        } catch (IOException e) {\r\n            e.printStackTrace();\r\n        } catch (ParseException e) {\r\n            e.printStackTrace();\r\n        }\r\n        JSONParser jsonParser1 = new JSONParser();\r\n        String prov = new String();\r\n        JSONObject categ=new JSONObject();\r\n        try {\r\n\r\n            JSONObject jsonObject = (JSONObject) jsonParser1.parse(new FileReader(\"src/main/resources/Forum.json\"));\r\n            JSONArray jsonArray = (JSONArray) jsonObject.get(\"Database\");\r\n\r\n            if (!jsonArray.isEmpty()) {\r\n                Iterator iterator = jsonArray.iterator();\r\n\r\n                while (iterator.hasNext()) {\r\n                    categ = (JSONObject) iterator.next();\r\n                    if (categ.containsKey(change)) {\r\n                        break;\r\n                    }\r\n\r\n                }\r\n\r\n                    prov = (String) categ.get(change);\r\n                    jsonArray.remove(categ);\r\n\r\n                    JSONObject aug = new JSONObject();\r\n                    aug.put(changeInTxt.getText(), prov);\r\n                    System.out.println();\r\n                    jsonArray.add(aug);\r\n\r\n                JSONObject aug2 = new JSONObject();\r\n                aug2.put(\"Database\", jsonArray);\r\n\r\n                try {\r\n                    FileWriter file = new FileWriter(\"src/main/resources/Forum.json\");\r\n                    file.write(aug2.toJSONString());\r\n                    file.close();\r\n\r\n\r\n                } catch (IOException e) {\r\n                    // TODO Auto-generated catch block\r\n                    e.printStackTrace();\r\n                }\r\n\r\n            }\r\n        } catch (ParseException e) {\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/Admin.java	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ src/main/java/Admin.java	(date 1592576246026)
+@@ -19,7 +19,7 @@
+ 
+ import static java.util.Collections.sort;
+ 
+-public class Admin extends Application {
++public class Admin extends LoginController {
+ 
+     @FXML
+     private TextField category;
+@@ -27,22 +27,9 @@
+     private TextField changeInTxt;
+     static String change = new String();
+ 
+-    @Override
+-    public void start(Stage primaryStage) throws Exception {
+-        // Create the FXMLLoader
+-        FXMLLoader loader = new FXMLLoader();
+-        // Path to the FXML File
+-        String fxmlDocPath = "src/main/resources/Admin.fxml";
+-        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+-
+-        // Create the Pane and all Details
+-        Pane root = (Pane) loader.load(fxmlStream);
+-
+-        // Create the Scene
+-        Scene scene = new Scene(root);
+-        primaryStage.setScene(scene);
+-        primaryStage.show();
+-
++    @FXML
++    private void clickManageUser(ActionEvent ev) throws IOException {
++        opening("ManagesTalkers",ev);
+     }
+ 
+ 
+Index: src/main/resources/LoginGUI.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<?import javafx.scene.control.*?>\r\n<?import javafx.scene.layout.*?>\r\n<?import javafx.scene.text.*?>\r\n\r\n<Pane maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"350.0\" prefWidth=\"550.0\" style=\"-fx-background-color: #2EA1BD;\" xmlns=\"http://javafx.com/javafx/10.0.2-internal\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"LoginController\">\r\n   <children>\r\n      <AnchorPane layoutX=\"275.0\" layoutY=\"15.0\" prefHeight=\"320.0\" prefWidth=\"250.0\" style=\"-fx-background-color: #20798F;\">\r\n         <children>\r\n            <Label layoutX=\"98.0\" layoutY=\"26.0\" text=\"Login\">\r\n               <font>\r\n                  <Font name=\"Leelawadee\" size=\"22.0\" />\r\n               </font>\r\n            </Label>\r\n            <Button fx:id=\"loginButton\" layoutX=\"79.0\" layoutY=\"230.0\" mnemonicParsing=\"false\" onAction=\"#clickLoginButton\" prefHeight=\"25.0\" prefWidth=\"95.0\" text=\"Log in\" />\r\n            <PasswordField fx:id=\"passwordField\" layoutX=\"36.0\" layoutY=\"148.0\" prefHeight=\"25.0\" prefWidth=\"180.0\" promptText=\"password\" />\r\n            <TextField fx:id=\"usernameField\" layoutX=\"36.0\" layoutY=\"102.0\" prefHeight=\"25.0\" prefWidth=\"180.0\" promptText=\"username\" />\r\n         </children></AnchorPane>\r\n      <Label layoutX=\"51.0\" layoutY=\"57.0\" text=\"Welcome to\">\r\n         <font>\r\n            <Font name=\"Leelawadee\" size=\"15.0\" />\r\n         </font>\r\n      </Label>\r\n      <Label layoutX=\"51.0\" layoutY=\"76.0\" />\r\n      <Label layoutX=\"51.0\" layoutY=\"76.0\" text=\"kouvénta\">\r\n         <font>\r\n            <Font name=\"Leelawadee\" size=\"29.0\" />\r\n         </font>\r\n      </Label>\r\n      <Label layoutX=\"51.0\" layoutY=\"184.0\" text=\"Don't have an account?\" />\r\n      <Button fx:id=\"loginRegisterButton\" layoutX=\"51.0\" layoutY=\"208.0\" mnemonicParsing=\"false\" onAction=\"#clickLoginRegisterButton\" text=\"Register\" />\r\n      <Button fx:id=\"loginRegisterAdminButton\" layoutX=\"51.0\" layoutY=\"245.0\" mnemonicParsing=\"false\" onAction=\"#clickLoginRegisterAdminButton\" text=\"Register as Admin\" />\r\n   </children>\r\n</Pane>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/LoginGUI.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ src/main/resources/LoginGUI.fxml	(date 1592576108447)
+@@ -14,8 +14,9 @@
+                </font>
+             </Label>
+             <Button fx:id="loginButton" layoutX="79.0" layoutY="230.0" mnemonicParsing="false" onAction="#clickLoginButton" prefHeight="25.0" prefWidth="95.0" text="Log in" />
+-            <PasswordField fx:id="passwordField" layoutX="36.0" layoutY="148.0" prefHeight="25.0" prefWidth="180.0" promptText="password" />
++
+             <TextField fx:id="usernameField" layoutX="36.0" layoutY="102.0" prefHeight="25.0" prefWidth="180.0" promptText="username" />
++            <PasswordField fx:id="passwordField" layoutX="36.0" layoutY="148.0" prefHeight="25.0" prefWidth="180.0" promptText="password" />
+          </children></AnchorPane>
+       <Label layoutX="51.0" layoutY="57.0" text="Welcome to">
+          <font>
+Index: src/main/resources/Forum.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"Database\":[{\"dorabora\":\"asdasdasdas\\ndasdasdasd\\ndasdasdas\"},{\"s1\":\"asdas\"}]}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/Forum.json	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ src/main/resources/Forum.json	(date 1592576078766)
+@@ -1,1 +1,1 @@
+-{"Database":[{"dorabora":"asdasdasdas\ndasdasdasd\ndasdasdas"},{"s1":"asdas"}]}
+\ No newline at end of file
++{"Database":[{"dorabora":"asdasdasdas\ndasdasdasd\ndasdasdas"},{"s1":"asdas\nuser123: qweq\nuser123: qweqw"},{"qwer":null}]}
+\ No newline at end of file
+Index: src/main/java/EditProfileController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import javafx.event.ActionEvent;\r\nimport javafx.fxml.FXML;\r\nimport javafx.fxml.FXMLLoader;\r\nimport javafx.scene.Scene;\r\nimport javafx.scene.control.Button;\r\nimport javafx.scene.control.PasswordField;\r\nimport javafx.scene.control.TextField;\r\nimport javafx.scene.layout.Pane;\r\nimport javafx.stage.Stage;\r\nimport org.json.simple.JSONArray;\r\nimport org.json.simple.JSONObject;\r\nimport org.json.simple.parser.JSONParser;\r\nimport org.json.simple.parser.ParseException;\r\n\r\nimport javax.crypto.Cipher;\r\nimport javax.crypto.spec.IvParameterSpec;\r\nimport javax.crypto.spec.SecretKeySpec;\r\nimport java.io.*;\r\nimport java.util.Base64;\r\nimport java.util.Iterator;\r\n\r\n\r\npublic class EditProfileController extends Main {\r\n\r\n    @FXML\r\n    private TextField newNameField;\r\n\r\n    @FXML\r\n    private TextField newPhoneField;\r\n\r\n    @FXML\r\n    private PasswordField newPasswordField;\r\n\r\n    @FXML\r\n    private Button saveButton;\r\n    public String key = \"Jar12345Jar12345\";\r\n    public String initVector = \"RandomInitVector\";\r\n\r\n    @Override\r\n\r\n    public void start(Stage primaryStage) throws Exception {\r\n        // Create the FXMLLoader\r\n        FXMLLoader loader = new FXMLLoader();\r\n        // Path to the FXML File\r\n        String fxmlDocPath = \"src/main/resources/EditProfile.fxml\";\r\n        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);\r\n\r\n        // Create the Pane and all Details\r\n        Pane root = (Pane) loader.load(fxmlStream);\r\n\r\n        // Create the Scene\r\n        Scene scene = new Scene(root);\r\n        primaryStage.setScene(scene);\r\n        primaryStage.show();\r\n\r\n    }\r\n\r\n\r\n    public static void main(String[] args){\r\n        launch(args);\r\n    }\r\n\r\n    @FXML\r\n    public void clickSave(ActionEvent event) throws FileNotFoundException {\r\n        if(verificareFormularCorect() == 1)\r\n            updateDatabase();\r\n    }\r\n\r\n    public int verificareFormularCorect(){\r\n        if(newNameField.getText().isEmpty() || newNameField.getLength()<5)\r\n        {\r\n            return 0;\r\n        }\r\n        if(newPhoneField.getText().isEmpty() || newPhoneField.getLength()!=10)\r\n        {\r\n            return 0;\r\n        }\r\n        if(newPasswordField.getText().isEmpty() || newPasswordField.getLength()<8)\r\n        {\r\n            return 0;\r\n        }\r\n        return 1;\r\n    }\r\n\r\n    public void updateDatabase() throws FileNotFoundException {\r\n        JSONParser jsonParser = new JSONParser();\r\n\r\n        try {\r\n            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(\"src/main/resources/db.json\"));\r\n            JSONArray jsonArray = (JSONArray) jsonObject.get(\"DataBase\");\r\n            Iterator iterator = jsonArray.iterator();\r\n            while (iterator.hasNext()) {\r\n                JSONObject currentUser = (JSONObject) iterator.next();\r\n                if (currentUser.get(\"User\").equals(user)) {\r\n                    currentUser.replace(\"Full name\", newNameField.getText());\r\n                    currentUser.replace(\"Password\", encrypt(key, initVector, newPasswordField.getText()));\r\n                    currentUser.replace(\"Phone\", newPhoneField.getText());\r\n                    break;\r\n                }\r\n            }\r\n            JSONObject aux = new JSONObject();\r\n            aux.put(\"DataBase\", jsonArray);\r\n            try {\r\n                FileWriter file = new FileWriter(\"src/main/resources/db.json\");\r\n                file.write(aux.toJSONString());\r\n                file.close();\r\n\r\n            } catch (IOException e) {\r\n                // TODO Auto-generated catch block\r\n                e.printStackTrace();\r\n            }\r\n        }\r\n        catch (ParseException e) {\r\n            e.printStackTrace();\r\n        } catch (FileNotFoundException e) {\r\n            e.printStackTrace();\r\n        } catch (IOException e) {\r\n            e.printStackTrace();\r\n        }\r\n        }\r\n\r\n        public static String encrypt(String key, String initVector, String value)\r\n    {\r\n        try {\r\n            IvParameterSpec iv = new IvParameterSpec(initVector.getBytes(\"UTF-8\"));\r\n            SecretKeySpec skeySpec = new SecretKeySpec(key.getBytes(\"UTF-8\"), \"AES\");\r\n\r\n            Cipher cipher = Cipher.getInstance(\"AES/CBC/PKCS5PADDING\");\r\n            cipher.init(1, skeySpec, iv);\r\n\r\n            byte[] encrypted = cipher.doFinal(value.getBytes());\r\n\r\n            return Base64.getEncoder().encodeToString(encrypted);\r\n        } catch (Exception ex) {\r\n            ex.printStackTrace();\r\n        }\r\n\r\n        return null;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/EditProfileController.java	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ src/main/java/EditProfileController.java	(date 1592574487118)
+@@ -20,7 +20,7 @@
+ import java.util.Iterator;
+ 
+ 
+-public class EditProfileController extends Main {
++public class EditProfileController extends Main  {
+ 
+     @FXML
+     private TextField newNameField;
+@@ -36,29 +36,7 @@
+     public String key = "Jar12345Jar12345";
+     public String initVector = "RandomInitVector";
+ 
+-    @Override
+-
+-    public void start(Stage primaryStage) throws Exception {
+-        // Create the FXMLLoader
+-        FXMLLoader loader = new FXMLLoader();
+-        // Path to the FXML File
+-        String fxmlDocPath = "src/main/resources/EditProfile.fxml";
+-        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+ 
+-        // Create the Pane and all Details
+-        Pane root = (Pane) loader.load(fxmlStream);
+-
+-        // Create the Scene
+-        Scene scene = new Scene(root);
+-        primaryStage.setScene(scene);
+-        primaryStage.show();
+-
+-    }
+-
+-
+-    public static void main(String[] args){
+-        launch(args);
+-    }
+ 
+     @FXML
+     public void clickSave(ActionEvent event) throws FileNotFoundException {
+Index: src/main/java/ManageTalkersController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import com.sun.deploy.security.SelectableSecurityManager;\r\nimport javafx.application.Application;\r\nimport javafx.event.ActionEvent;\r\nimport javafx.fxml.FXML;\r\nimport javafx.fxml.FXMLLoader;\r\nimport javafx.scene.Scene;\r\nimport javafx.scene.control.Button;\r\nimport javafx.scene.control.PasswordField;\r\nimport javafx.scene.control.TextField;\r\nimport javafx.scene.layout.Pane;\r\nimport javafx.stage.Stage;\r\nimport org.json.simple.JSONArray;\r\nimport org.json.simple.JSONObject;\r\nimport org.json.simple.parser.JSONParser;\r\nimport org.json.simple.parser.ParseException;\r\n\r\nimport javax.crypto.Cipher;\r\nimport javax.crypto.spec.IvParameterSpec;\r\nimport javax.crypto.spec.SecretKeySpec;\r\nimport java.io.*;\r\nimport java.util.Base64;\r\nimport java.util.Iterator;\r\n\r\npublic class ManageTalkersController extends Application {\r\n    @FXML\r\n    private TextField userInput;\r\n\r\n    @FXML\r\n    private Button blockUserButton;\r\n\r\n    @FXML\r\n    private Button unblockUserButton;\r\n\r\n    public void start(Stage primaryStage) throws Exception {\r\n        // Create the FXMLLoader\r\n        FXMLLoader loader = new FXMLLoader();\r\n        // Path to the FXML File\r\n        String fxmlDocPath = \"src/main/resources/ManagesTalkers.fxml\";\r\n        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);\r\n\r\n        // Create the Pane and all Details\r\n        Pane root = (Pane) loader.load(fxmlStream);\r\n\r\n        // Create the Scene\r\n        Scene scene = new Scene(root);\r\n        primaryStage.setScene(scene);\r\n        primaryStage.show();\r\n\r\n    }\r\n\r\n    public static void main(String[] args){\r\n        launch(args);\r\n    }\r\n\r\n    @FXML\r\n    void blockUser(ActionEvent event) {\r\n        JSONParser jsonParser = new JSONParser();\r\n\r\n        try {\r\n            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(\"src/main/resources/db.json\"));\r\n            JSONArray jsonArray = (JSONArray) jsonObject.get(\"DataBase\");\r\n            Iterator iterator = jsonArray.iterator();\r\n            while (iterator.hasNext()) {\r\n                JSONObject currentUser = (JSONObject) iterator.next();\r\n                if (currentUser.get(\"User\").equals(userInput.getText())) {\r\n                    if(currentUser.get(\"Status\").equals(\"Blocked\")) {\r\n                        System.out.println(\"E blocat deja\");\r\n                        return;\r\n                    }\r\n                    currentUser.replace(\"Status\", \"Blocked\");\r\n                    break;\r\n                }\r\n            }\r\n            JSONObject aux = new JSONObject();\r\n            aux.put(\"DataBase\", jsonArray);\r\n            try {\r\n                FileWriter file = new FileWriter(\"src/main/resources/db.json\");\r\n                file.write(aux.toJSONString());\r\n                file.close();\r\n\r\n            } catch (IOException e) {\r\n                // TODO Auto-generated catch block\r\n                e.printStackTrace();\r\n            }\r\n        }\r\n        catch (ParseException e) {\r\n            e.printStackTrace();\r\n        } catch (FileNotFoundException e) {\r\n            e.printStackTrace();\r\n        } catch (IOException e) {\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n\r\n\r\n    @FXML\r\n    void unblockUser(ActionEvent event) {\r\n        JSONParser jsonParser = new JSONParser();\r\n\r\n        try {\r\n            JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(\"src/main/resources/db.json\"));\r\n            JSONArray jsonArray = (JSONArray) jsonObject.get(\"DataBase\");\r\n            Iterator iterator = jsonArray.iterator();\r\n            while (iterator.hasNext()) {\r\n                JSONObject currentUser = (JSONObject) iterator.next();\r\n                if (currentUser.get(\"User\").equals(userInput.getText())) {\r\n                    if(currentUser.get(\"Status\").equals(\"Unblocked\")) {\r\n                        System.out.println(\"E deblocat deja\");\r\n                        return;\r\n                    }\r\n                    currentUser.replace(\"Status\", \"Unblocked\");\r\n                    break;\r\n                }\r\n            }\r\n            JSONObject aux = new JSONObject();\r\n            aux.put(\"DataBase\", jsonArray);\r\n            try {\r\n                FileWriter file = new FileWriter(\"src/main/resources/db.json\");\r\n                file.write(aux.toJSONString());\r\n                file.close();\r\n\r\n            } catch (IOException e) {\r\n                // TODO Auto-generated catch block\r\n                e.printStackTrace();\r\n            }\r\n        }\r\n        catch (ParseException e) {\r\n            e.printStackTrace();\r\n        } catch (FileNotFoundException e) {\r\n            e.printStackTrace();\r\n        } catch (IOException e) {\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/ManageTalkersController.java	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ src/main/java/ManageTalkersController.java	(date 1592574596301)
+@@ -21,7 +21,7 @@
+ import java.util.Base64;
+ import java.util.Iterator;
+ 
+-public class ManageTalkersController extends Application {
++public class ManageTalkersController  {
+     @FXML
+     private TextField userInput;
+ 
+@@ -31,26 +31,9 @@
+     @FXML
+     private Button unblockUserButton;
+ 
+-    public void start(Stage primaryStage) throws Exception {
+-        // Create the FXMLLoader
+-        FXMLLoader loader = new FXMLLoader();
+-        // Path to the FXML File
+-        String fxmlDocPath = "src/main/resources/ManagesTalkers.fxml";
+-        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+ 
+-        // Create the Pane and all Details
+-        Pane root = (Pane) loader.load(fxmlStream);
+ 
+-        // Create the Scene
+-        Scene scene = new Scene(root);
+-        primaryStage.setScene(scene);
+-        primaryStage.show();
+ 
+-    }
+-
+-    public static void main(String[] args){
+-        launch(args);
+-    }
+ 
+     @FXML
+     void blockUser(ActionEvent event) {
+Index: src/main/resources/TalkerGUI.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<?import javafx.scene.control.*?>\r\n<?import javafx.scene.layout.*?>\r\n\r\n\r\n<AnchorPane fx:id=\"viewCat\"  prefHeight=\"400.0\" prefWidth=\"600.0\" xmlns=\"http://javafx.com/javafx/10.0.2-internal\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"User\">\r\n   <children>\r\n      <Button fx:id=\"viewCateg\" layoutX=\"152.0\" layoutY=\"262.0\" mnemonicParsing=\"false\" onAction=\"#clickViewCateg\" text=\"View Categories\" />\r\n      <Button layoutX=\"384.0\" layoutY=\"262.0\" mnemonicParsing=\"false\" text=\"Edit Profile\" />\r\n   </children>\r\n</AnchorPane>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/TalkerGUI.fxml	(revision 962909aed0e80ed882b1163deef202b730122a39)
++++ src/main/resources/TalkerGUI.fxml	(date 1592575914068)
+@@ -3,10 +3,9 @@
+ <?import javafx.scene.control.*?>
+ <?import javafx.scene.layout.*?>
+ 
+-
+-<AnchorPane fx:id="viewCat"  prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="User">
++<AnchorPane fx:id="viewCat" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="User">
+    <children>
+       <Button fx:id="viewCateg" layoutX="152.0" layoutY="262.0" mnemonicParsing="false" onAction="#clickViewCateg" text="View Categories" />
+-      <Button layoutX="384.0" layoutY="262.0" mnemonicParsing="false" text="Edit Profile" />
++      <Button layoutX="384.0" layoutY="262.0" mnemonicParsing="false" onAction="#clickEdit" text="Edit Profile" />
+    </children>
+ </AnchorPane>
